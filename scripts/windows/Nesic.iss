@@ -2,9 +2,9 @@
 #define MyAppName "Nesic"
 #define MyAppVersion "2.6.0"
 #define MyAppPublisher "LMD"
-#define MyAppURL "https://github.com/maxrave-dev/SimpMusic"
+#define MyAppURL "https://github.com/ledanh2k16-collab/Dmusic"
 #define MyAppExeName "nesic.exe"
-#define SourceAppDir "..\..\desktopApp\build\compose\binaries\main\app\dmusic"
+#define SourceAppDir "..\..\desktopApp\build\compose\binaries\main\app\nesic"
 
 [Setup]
 AppId={{8B3C185A-6FE9-4B55-9B28-49A3E7B784A2}
@@ -16,7 +16,7 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 DisableProgramGroupPage=yes
-OutputDir=C:\Users\Mrs Thao\Desktop\Dmusic
+OutputDir=C:\Users\Mrs Thao\Desktop\Danh\Nesic
 OutputBaseFilename=Nesic-Windows-Setup-x64
 SetupIconFile=..\..\composeApp\icon\circle_app_icon.ico
 Compression=lzma2/ultra64

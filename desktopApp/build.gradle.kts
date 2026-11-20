@@ -168,7 +168,7 @@ compose.desktop {
             }
             targetFormats(*listTarget.toTypedArray())
             modules("jdk.unsupported")
-            packageName = "dmusic"
+            packageName = "nesic"
             vendor = "LMD"
             macOS {
                 val formatedDate =
