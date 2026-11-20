@@ -45,19 +45,19 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.core.component.inject
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.auto_created_by_youtube_music
-import dmusic.composeapp.generated.resources.downloading
-import dmusic.composeapp.generated.resources.error
-import dmusic.composeapp.generated.resources.playlist
-import dmusic.composeapp.generated.resources.playlist_is_empty
-import dmusic.composeapp.generated.resources.radio
-import dmusic.composeapp.generated.resources.radio_not_available
-import dmusic.composeapp.generated.resources.shuffle
-import dmusic.composeapp.generated.resources.shuffle_not_available
-import dmusic.composeapp.generated.resources.synced
-import dmusic.composeapp.generated.resources.syncing
-import dmusic.composeapp.generated.resources.view_count
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.auto_created_by_youtube_music
+import nesic.composeapp.generated.resources.downloading
+import nesic.composeapp.generated.resources.error
+import nesic.composeapp.generated.resources.playlist
+import nesic.composeapp.generated.resources.playlist_is_empty
+import nesic.composeapp.generated.resources.radio
+import nesic.composeapp.generated.resources.radio_not_available
+import nesic.composeapp.generated.resources.shuffle
+import nesic.composeapp.generated.resources.shuffle_not_available
+import nesic.composeapp.generated.resources.synced
+import nesic.composeapp.generated.resources.syncing
+import nesic.composeapp.generated.resources.view_count
 
 class PlaylistViewModel(
     private val songRepository: SongRepository,

@@ -127,20 +127,20 @@ import kotlinx.datetime.toLocalDateTime
 import org.jetbrains.compose.resources.getString
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.cancel
-import dmusic.composeapp.generated.resources.do_not_show_again
-import dmusic.composeapp.generated.resources.download
-import dmusic.composeapp.generated.resources.good_night
-import dmusic.composeapp.generated.resources.notification
-import dmusic.composeapp.generated.resources.settings
-import dmusic.composeapp.generated.resources.sleep_timer_off
-import dmusic.composeapp.generated.resources.this_app_needs_to_access_your_notification
-import dmusic.composeapp.generated.resources.this_link_is_not_supported
-import dmusic.composeapp.generated.resources.unknown
-import dmusic.composeapp.generated.resources.update_available
-import dmusic.composeapp.generated.resources.update_message
-import dmusic.composeapp.generated.resources.yes
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.cancel
+import nesic.composeapp.generated.resources.do_not_show_again
+import nesic.composeapp.generated.resources.download
+import nesic.composeapp.generated.resources.good_night
+import nesic.composeapp.generated.resources.notification
+import nesic.composeapp.generated.resources.settings
+import nesic.composeapp.generated.resources.sleep_timer_off
+import nesic.composeapp.generated.resources.this_app_needs_to_access_your_notification
+import nesic.composeapp.generated.resources.this_link_is_not_supported
+import nesic.composeapp.generated.resources.unknown
+import nesic.composeapp.generated.resources.update_available
+import nesic.composeapp.generated.resources.update_message
+import nesic.composeapp.generated.resources.yes
 import kotlin.time.ExperimentalTime
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalTime::class, ExperimentalFoundationApi::class)
@@ -256,7 +256,7 @@ fun App(
                 Logger.d("MainActivity", "Discord callback, code present: ${!data.getQueryParameter("code").isNullOrEmpty()}")
                 viewModel.setIntent(null)
                 viewModel.completeDiscordLogin(data.toString())
-            } else if (data.host == "dmusic.org" || data.scheme == "dmusic" || data.host == "simpmusic.org" || data.scheme == "simpmusic") {
+            } else if (data.host == "nesic.org" || data.scheme == "nesic" || data.host == "dmusic.org" || data.scheme == "nesic" || data.scheme == "dmusic" || data.host == "simpmusic.org" || data.scheme == "simpmusic") {
                 // https://simpmusic.org/app/watch?v=VIDEO_ID
                 // https://simpmusic.org/app/playlist?list=PLAYLIST_ID
                 // https://simpmusic.org/app/channel/CHANNEL_ID
@@ -267,7 +267,7 @@ fun App(
                 // For simpmusic.org: segments = ["app", "watch"] → appPath = segments[1]
                 // For simpmusic://: host IS the appPath (e.g. host="watch"), segments = []
                 val appPath =
-                    if (data.scheme == "dmusic" || data.scheme == "simpmusic") {
+                    if (data.scheme == "nesic" || data.scheme == "dmusic" || data.scheme == "simpmusic") {
                         data.host
                     } else {
                         segments.getOrNull(1)

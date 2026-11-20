@@ -1,4 +1,4 @@
-Not a simple music player, it's Dmusic
+Not a simple music player, it's Nesic
 
 <br><b>Features:</b>
 
@@ -11,7 +11,7 @@ Not a simple music player, it's Dmusic
 - AI song suggestions
 - Notifications from followed artists
 - Caching and offline playback support
-- Synced lyrics from Dmusic Lyrics, LRCLIB, Spotify (require login) and YouTube Transcript - AI lyrics translation (BETA) (\*)
+- Synced lyrics from Nesic Lyrics, LRCLIB, Spotify (require login) and YouTube Transcript - AI lyrics translation (BETA) (\*)
 - Personalize data (\**) and multi-YouTube-account support
 - Supports SponsorBlock and Return YouTube Dislike
 - Sleep Timer

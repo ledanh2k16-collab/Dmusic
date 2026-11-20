@@ -94,24 +94,24 @@ import multiplatform.network.cmptoast.ToastGravity
 import multiplatform.network.cmptoast.showToast
 import org.jetbrains.compose.resources.Font
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.all
-import dmusic.composeapp.generated.resources.app_log
-import dmusic.composeapp.generated.resources.copied_to_clipboard
-import dmusic.composeapp.generated.resources.error
-import dmusic.composeapp.generated.resources.log_empty
-import dmusic.composeapp.generated.resources.log_errors
-import dmusic.composeapp.generated.resources.log_export_failed
-import dmusic.composeapp.generated.resources.log_hide_stack_trace
-import dmusic.composeapp.generated.resources.log_level_info
-import dmusic.composeapp.generated.resources.log_level_warn
-import dmusic.composeapp.generated.resources.log_live
-import dmusic.composeapp.generated.resources.log_no_stack_trace
-import dmusic.composeapp.generated.resources.log_paused
-import dmusic.composeapp.generated.resources.log_search_hint
-import dmusic.composeapp.generated.resources.log_stack_trace_lines
-import dmusic.composeapp.generated.resources.share
-import dmusic.composeapp.generated.resources.space_mono_regular
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.all
+import nesic.composeapp.generated.resources.app_log
+import nesic.composeapp.generated.resources.copied_to_clipboard
+import nesic.composeapp.generated.resources.error
+import nesic.composeapp.generated.resources.log_empty
+import nesic.composeapp.generated.resources.log_errors
+import nesic.composeapp.generated.resources.log_export_failed
+import nesic.composeapp.generated.resources.log_hide_stack_trace
+import nesic.composeapp.generated.resources.log_level_info
+import nesic.composeapp.generated.resources.log_level_warn
+import nesic.composeapp.generated.resources.log_live
+import nesic.composeapp.generated.resources.log_no_stack_trace
+import nesic.composeapp.generated.resources.log_paused
+import nesic.composeapp.generated.resources.log_search_hint
+import nesic.composeapp.generated.resources.log_stack_trace_lines
+import nesic.composeapp.generated.resources.share
+import nesic.composeapp.generated.resources.space_mono_regular
 
 private val POLL_INTERVAL = 1.seconds
 

@@ -26,10 +26,10 @@ import com.maxrave.simpmusic.ui.screen.home.wrapped.formatPercent
 import com.maxrave.simpmusic.viewModel.WrappedDecadeShare
 import com.maxrave.simpmusic.viewModel.WrappedYear
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.analytics_decade_pre
-import dmusic.composeapp.generated.resources.wrapped_decades_caption
-import dmusic.composeapp.generated.resources.wrapped_decades_title
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.analytics_decade_pre
+import nesic.composeapp.generated.resources.wrapped_decades_caption
+import nesic.composeapp.generated.resources.wrapped_decades_title
 
 /**
  * Card 09 — how far back the year reached, as blocks whose height IS the share.

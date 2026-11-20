@@ -3,13 +3,13 @@ package com.maxrave.simpmusic.utils
 import com.maxrave.common.SponsorBlockType
 import com.maxrave.simpmusic.extension.displayRes
 import org.jetbrains.compose.resources.getString
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.explicit_content_blocked
-import dmusic.composeapp.generated.resources.new_albums
-import dmusic.composeapp.generated.resources.new_singles
-import dmusic.composeapp.generated.resources.sponsorblock_skip_segment
-import dmusic.composeapp.generated.resources.this_app_needs_to_access_your_notification
-import dmusic.composeapp.generated.resources.time_out_check_internet_connection_or_change_piped_instance_in_settings
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.explicit_content_blocked
+import nesic.composeapp.generated.resources.new_albums
+import nesic.composeapp.generated.resources.new_singles
+import nesic.composeapp.generated.resources.sponsorblock_skip_segment
+import nesic.composeapp.generated.resources.this_app_needs_to_access_your_notification
+import nesic.composeapp.generated.resources.time_out_check_internet_connection_or_change_piped_instance_in_settings
 
 object ComposeResUtils {
     suspend fun getResString(

@@ -103,24 +103,24 @@ import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.chart
-import dmusic.composeapp.generated.resources.downloaded_playlists
-import dmusic.composeapp.generated.resources.favorite_playlists
-import dmusic.composeapp.generated.resources.favorite_podcasts
-import dmusic.composeapp.generated.resources.library
-import dmusic.composeapp.generated.resources.mix_for_you
-import dmusic.composeapp.generated.resources.no_YouTube_playlists
-import dmusic.composeapp.generated.resources.no_charts_found
-import dmusic.composeapp.generated.resources.no_favorite_playlists
-import dmusic.composeapp.generated.resources.no_favorite_podcasts
-import dmusic.composeapp.generated.resources.no_playlists_added
-import dmusic.composeapp.generated.resources.no_playlists_downloaded
-import dmusic.composeapp.generated.resources.simpmusic_charts
-import dmusic.composeapp.generated.resources.wrapped
-import dmusic.composeapp.generated.resources.your_library
-import dmusic.composeapp.generated.resources.your_playlists
-import dmusic.composeapp.generated.resources.your_youtube_playlists
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.chart
+import nesic.composeapp.generated.resources.downloaded_playlists
+import nesic.composeapp.generated.resources.favorite_playlists
+import nesic.composeapp.generated.resources.favorite_podcasts
+import nesic.composeapp.generated.resources.library
+import nesic.composeapp.generated.resources.mix_for_you
+import nesic.composeapp.generated.resources.no_YouTube_playlists
+import nesic.composeapp.generated.resources.no_charts_found
+import nesic.composeapp.generated.resources.no_favorite_playlists
+import nesic.composeapp.generated.resources.no_favorite_podcasts
+import nesic.composeapp.generated.resources.no_playlists_added
+import nesic.composeapp.generated.resources.no_playlists_downloaded
+import nesic.composeapp.generated.resources.simpmusic_charts
+import nesic.composeapp.generated.resources.wrapped
+import nesic.composeapp.generated.resources.your_library
+import nesic.composeapp.generated.resources.your_playlists
+import nesic.composeapp.generated.resources.your_youtube_playlists
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

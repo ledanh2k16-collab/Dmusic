@@ -47,15 +47,15 @@ import com.maxrave.simpmusic.ui.theme.typo
 import org.jetbrains.compose.resources.StringResource
 import org.jetbrains.compose.resources.pluralStringResource
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.cached
-import dmusic.composeapp.generated.resources.downloaded
-import dmusic.composeapp.generated.resources.favorite
-import dmusic.composeapp.generated.resources.followed
-import dmusic.composeapp.generated.resources.library_artist_count
-import dmusic.composeapp.generated.resources.library_favorite_empty_hint
-import dmusic.composeapp.generated.resources.liked_songs_count
-import dmusic.composeapp.generated.resources.most_played
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.cached
+import nesic.composeapp.generated.resources.downloaded
+import nesic.composeapp.generated.resources.favorite
+import nesic.composeapp.generated.resources.followed
+import nesic.composeapp.generated.resources.library_artist_count
+import nesic.composeapp.generated.resources.library_favorite_empty_hint
+import nesic.composeapp.generated.resources.liked_songs_count
+import nesic.composeapp.generated.resources.most_played
 
 /**
  * The collections at the top of the Your library tab: Favorite as the wide card, then Followed,

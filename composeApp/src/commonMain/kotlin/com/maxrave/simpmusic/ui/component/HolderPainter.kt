@@ -12,9 +12,9 @@ import androidx.compose.ui.unit.IntSize
 import com.maxrave.simpmusic.ui.theme.LocalForceDarkText
 import com.maxrave.simpmusic.ui.theme.LocalIsDarkTheme
 import org.jetbrains.compose.resources.imageResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.holder
-import dmusic.composeapp.generated.resources.holder_light
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.holder
+import nesic.composeapp.generated.resources.holder_light
 import kotlin.math.min
 import kotlin.math.roundToInt
 

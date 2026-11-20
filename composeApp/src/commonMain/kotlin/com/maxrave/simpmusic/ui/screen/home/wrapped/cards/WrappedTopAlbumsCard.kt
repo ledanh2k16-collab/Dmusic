@@ -27,9 +27,9 @@ import com.maxrave.simpmusic.ui.screen.home.wrapped.formatCount
 import com.maxrave.simpmusic.viewModel.WrappedAlbum
 import com.maxrave.simpmusic.viewModel.WrappedYear
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.wrapped_albums_title
-import dmusic.composeapp.generated.resources.wrapped_plays
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.wrapped_albums_title
+import nesic.composeapp.generated.resources.wrapped_plays
 
 /**
  * Card 05 — the records, as one block of sleeve art.

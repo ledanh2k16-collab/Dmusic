@@ -193,24 +193,24 @@ import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.album_length
-import dmusic.composeapp.generated.resources.baseline_downloaded
-import dmusic.composeapp.generated.resources.cancel
-import dmusic.composeapp.generated.resources.created_at
-import dmusic.composeapp.generated.resources.downloaded
-import dmusic.composeapp.generated.resources.downloading
-import dmusic.composeapp.generated.resources.reload
-import dmusic.composeapp.generated.resources.remove_from_playlist
-import dmusic.composeapp.generated.resources.sort_by
-import dmusic.composeapp.generated.resources.suggest
-import dmusic.composeapp.generated.resources.sync_playlist_warning
-import dmusic.composeapp.generated.resources.synced_playlist_cannot_change_order
-import dmusic.composeapp.generated.resources.unsync_playlist_warning
-import dmusic.composeapp.generated.resources.warning
-import dmusic.composeapp.generated.resources.yes
-import dmusic.composeapp.generated.resources.your_playlist
-import dmusic.composeapp.generated.resources.search
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.album_length
+import nesic.composeapp.generated.resources.baseline_downloaded
+import nesic.composeapp.generated.resources.cancel
+import nesic.composeapp.generated.resources.created_at
+import nesic.composeapp.generated.resources.downloaded
+import nesic.composeapp.generated.resources.downloading
+import nesic.composeapp.generated.resources.reload
+import nesic.composeapp.generated.resources.remove_from_playlist
+import nesic.composeapp.generated.resources.sort_by
+import nesic.composeapp.generated.resources.suggest
+import nesic.composeapp.generated.resources.sync_playlist_warning
+import nesic.composeapp.generated.resources.synced_playlist_cannot_change_order
+import nesic.composeapp.generated.resources.unsync_playlist_warning
+import nesic.composeapp.generated.resources.warning
+import nesic.composeapp.generated.resources.yes
+import nesic.composeapp.generated.resources.your_playlist
+import nesic.composeapp.generated.resources.search
 
 private const val TAG = "LocalPlaylistScreen"
 

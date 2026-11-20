@@ -60,24 +60,24 @@ import com.maxrave.simpmusic.viewModel.TasteUiState
 import multiplatform.network.cmptoast.ToastGravity
 import multiplatform.network.cmptoast.showToast
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.copied_to_clipboard
-import dmusic.composeapp.generated.resources.retry
-import dmusic.composeapp.generated.resources.settings
-import dmusic.composeapp.generated.resources.share
-import dmusic.composeapp.generated.resources.taste_created_on
-import dmusic.composeapp.generated.resources.taste_error_generic
-import dmusic.composeapp.generated.resources.taste_error_title
-import dmusic.composeapp.generated.resources.taste_error_with_code
-import dmusic.composeapp.generated.resources.taste_eyebrow
-import dmusic.composeapp.generated.resources.taste_invite
-import dmusic.composeapp.generated.resources.taste_loading
-import dmusic.composeapp.generated.resources.taste_loading_title
-import dmusic.composeapp.generated.resources.taste_not_configured
-import dmusic.composeapp.generated.resources.taste_not_configured_title
-import dmusic.composeapp.generated.resources.taste_not_enough_data
-import dmusic.composeapp.generated.resources.taste_regenerate
-import dmusic.composeapp.generated.resources.taste_title
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.copied_to_clipboard
+import nesic.composeapp.generated.resources.retry
+import nesic.composeapp.generated.resources.settings
+import nesic.composeapp.generated.resources.share
+import nesic.composeapp.generated.resources.taste_created_on
+import nesic.composeapp.generated.resources.taste_error_generic
+import nesic.composeapp.generated.resources.taste_error_title
+import nesic.composeapp.generated.resources.taste_error_with_code
+import nesic.composeapp.generated.resources.taste_eyebrow
+import nesic.composeapp.generated.resources.taste_invite
+import nesic.composeapp.generated.resources.taste_loading
+import nesic.composeapp.generated.resources.taste_loading_title
+import nesic.composeapp.generated.resources.taste_not_configured
+import nesic.composeapp.generated.resources.taste_not_configured_title
+import nesic.composeapp.generated.resources.taste_not_enough_data
+import nesic.composeapp.generated.resources.taste_regenerate
+import nesic.composeapp.generated.resources.taste_title
 
 /**
  * The "Your music taste" card in Your Library, in every state the reading goes through.

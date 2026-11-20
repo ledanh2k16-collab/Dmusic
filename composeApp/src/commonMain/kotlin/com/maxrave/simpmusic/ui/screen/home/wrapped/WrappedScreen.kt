@@ -97,16 +97,16 @@ import multiplatform.network.cmptoast.ToastGravity
 import multiplatform.network.cmptoast.showToast
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.share_lyrics_permission_denied
-import dmusic.composeapp.generated.resources.share_lyrics_save_failed
-import dmusic.composeapp.generated.resources.share_lyrics_saved
-import dmusic.composeapp.generated.resources.share_lyrics_saved_desktop
-import dmusic.composeapp.generated.resources.share_lyrics_share_failed
-import dmusic.composeapp.generated.resources.wrapped_share
-import dmusic.composeapp.generated.resources.wrapped_tap_to_begin
-import dmusic.composeapp.generated.resources.wrapped_tap_to_continue
-import dmusic.composeapp.generated.resources.wrapped_year
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.share_lyrics_permission_denied
+import nesic.composeapp.generated.resources.share_lyrics_save_failed
+import nesic.composeapp.generated.resources.share_lyrics_saved
+import nesic.composeapp.generated.resources.share_lyrics_saved_desktop
+import nesic.composeapp.generated.resources.share_lyrics_share_failed
+import nesic.composeapp.generated.resources.wrapped_share
+import nesic.composeapp.generated.resources.wrapped_tap_to_begin
+import nesic.composeapp.generated.resources.wrapped_tap_to_continue
+import nesic.composeapp.generated.resources.wrapped_year
 import kotlin.random.Random
 
 /**

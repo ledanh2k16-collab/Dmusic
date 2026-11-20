@@ -78,26 +78,26 @@ import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.getString
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.browser_login_busy
-import dmusic.composeapp.generated.resources.browser_login_description
-import dmusic.composeapp.generated.resources.browser_login_found
-import dmusic.composeapp.generated.resources.browser_login_full_disk_access
-import dmusic.composeapp.generated.resources.browser_login_importing
-import dmusic.composeapp.generated.resources.browser_login_key_unavailable
-import dmusic.composeapp.generated.resources.browser_login_missing
-import dmusic.composeapp.generated.resources.browser_login_permission
-import dmusic.composeapp.generated.resources.browser_login_open_settings
-import dmusic.composeapp.generated.resources.browser_login_refresh
-import dmusic.composeapp.generated.resources.browser_login_rejected
-import dmusic.composeapp.generated.resources.browser_login_unreadable
-import dmusic.composeapp.generated.resources.browser_login_unsupported
-import dmusic.composeapp.generated.resources.browser_login_youtube
-import dmusic.composeapp.generated.resources.spotify
-import dmusic.composeapp.generated.resources.loading
-import dmusic.composeapp.generated.resources.log_in
-import dmusic.composeapp.generated.resources.login_failed
-import dmusic.composeapp.generated.resources.login_success
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.browser_login_busy
+import nesic.composeapp.generated.resources.browser_login_description
+import nesic.composeapp.generated.resources.browser_login_found
+import nesic.composeapp.generated.resources.browser_login_full_disk_access
+import nesic.composeapp.generated.resources.browser_login_importing
+import nesic.composeapp.generated.resources.browser_login_key_unavailable
+import nesic.composeapp.generated.resources.browser_login_missing
+import nesic.composeapp.generated.resources.browser_login_permission
+import nesic.composeapp.generated.resources.browser_login_open_settings
+import nesic.composeapp.generated.resources.browser_login_refresh
+import nesic.composeapp.generated.resources.browser_login_rejected
+import nesic.composeapp.generated.resources.browser_login_unreadable
+import nesic.composeapp.generated.resources.browser_login_unsupported
+import nesic.composeapp.generated.resources.browser_login_youtube
+import nesic.composeapp.generated.resources.spotify
+import nesic.composeapp.generated.resources.loading
+import nesic.composeapp.generated.resources.log_in
+import nesic.composeapp.generated.resources.login_failed
+import nesic.composeapp.generated.resources.login_success
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

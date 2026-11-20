@@ -8,7 +8,7 @@ import java.time.Instant
 import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 
-// desktopApp — JVM application module for Dmusic Desktop.
+// desktopApp — JVM application module for Nesic Desktop.
 //
 // Per JetBrains 2026 KMP guidance (AGP 9 + new default structure), the
 // platform-app entry points live in dedicated modules separate from the
@@ -117,7 +117,7 @@ dependencies {
     windowsAmd64(libs.compose.windows.x64)
 }
 
-// Append Dmusic-specific keys to Conveyor's generated config file and
+// Append Nesic-specific keys to Conveyor's generated config file and
 // — crucially — replace the auto-detected `app.inputs` classpath with
 // ProGuard's shrunk jar directory so the packaged AppImage carries
 // obfuscated + size-reduced bytecode instead of raw Gradle output.
@@ -128,9 +128,9 @@ tasks.named<hydraulic.conveyor.gradle.WriteConveyorConfigTask>("writeConveyorCon
     doLast {
         destination.get().asFile.appendText(
             """
-            |app.fsname = dmusic
-            |app.display-name = Dmusic
-            |app.rdns-name = com.maxrave.Dmusic
+            |app.fsname = nesic
+            |app.display-name = Nesic
+            |app.rdns-name = com.maxrave.Nesic
             |app.vendor = LMD
             |
             |// Override the Gradle-detected classpath with the ProGuard'd
@@ -148,7 +148,7 @@ tasks.named<hydraulic.conveyor.gradle.WriteConveyorConfigTask>("writeConveyorCon
 
 compose.desktop {
     application {
-        mainClass = "com.maxrave.Dmusic.MainKt"
+        mainClass = "com.maxrave.Nesic.MainKt"
         jvmArgs += "--add-opens=java.base/java.nio=ALL-UNNAMED"
 
         nativeDistributions {
@@ -197,10 +197,10 @@ compose.desktop {
                             <key>CFBundleTypeRole</key>
                             <string>Viewer</string>
                             <key>CFBundleURLName</key>
-                            <string>com.maxrave.Dmusic.deeplink</string>
+                            <string>com.maxrave.Nesic.deeplink</string>
                             <key>CFBundleURLSchemes</key>
                             <array>
-                                <string>Dmusic</string>
+                                <string>Nesic</string>
                             </array>
                         </dict>
                     </array>
@@ -250,7 +250,7 @@ afterEvaluate {
         jvmArgs("-XX:ErrorFile=${rootProject.layout.buildDirectory.get().asFile}/hs_err_pid%p.log")
 
         // Marks a dev run, so the app reads remote-config-dev.json instead of the one real users get.
-        systemProperty("Dmusic.dev", "true")
+        systemProperty("Nesic.dev", "true")
 
         // Skiko's frame counter: prints "[timestamp] FPS avg (min-max)" to the console every 2 s.
         // Temporary, to measure what liquid glass costs per frame on Desktop.
@@ -295,7 +295,7 @@ afterEvaluate {
             jvmArgs("--add-opens", "java.desktop/sun.lwawt.macosx=ALL-UNNAMED")
         }
 
-        // forceLinuxWmClass() in Main.kt needs this to rename the window "Dmusic"; without it
+        // forceLinuxWmClass() in Main.kt needs this to rename the window "Nesic"; without it
         // the dock falls back to the class name. Packaged builds get it from conveyor.conf.
         if (System.getProperty("os.name").contains("Linux")) {
             jvmArgs("--add-opens", "java.desktop/sun.awt.X11=ALL-UNNAMED")
@@ -347,7 +347,7 @@ tasks.register("packageConveyorAppImage") {
     )
 
     doLast {
-        val appName = "Dmusic"
+        val appName = "Nesic"
         val conveyorOutput = rootDir.resolve("output")
         if (!conveyorOutput.exists()) {
             throw GradleException(
@@ -411,14 +411,14 @@ tasks.register("packageConveyorAppImage") {
             """[Desktop Entry]
             |Type=Application
             |Version=1.0
-            |Name=Dmusic
-            |Comment=Dmusic v$versionName - FOSS YouTube Music Client
+            |Name=Nesic
+            |Comment=Nesic v$versionName - FOSS YouTube Music Client
             |Exec=bin/dmusic %u
             |Icon=dmusic
             |Terminal=false
             |Categories=Audio;AudioVideo;
-            |StartupWMClass=Dmusic
-            |MimeType=x-scheme-handler/dmusic;x-scheme-handler/Dmusic;x-scheme-handler/wordbyword;
+            |StartupWMClass=Nesic
+            |MimeType=x-scheme-handler/dmusic;x-scheme-handler/Nesic;x-scheme-handler/wordbyword;
             |
             """.trimMargin(),
         )
@@ -442,7 +442,7 @@ tasks.register("packageConveyorAppImage") {
             |DESKTOP_DIR="${'$'}HOME/.local/share/applications"
             |mkdir -p "${'$'}DESKTOP_DIR"
             |APPIMAGE_PATH="${'$'}{APPIMAGE:-${'$'}SELF}"
-            |sed "s|Exec=bin/dmusic|Exec=${'$'}APPIMAGE_PATH|" "${'$'}HERE/dmusic.desktop" > "${'$'}DESKTOP_DIR/com-maxrave-Dmusic-MainKt.desktop"
+            |sed "s|Exec=bin/dmusic|Exec=${'$'}APPIMAGE_PATH|" "${'$'}HERE/dmusic.desktop" > "${'$'}DESKTOP_DIR/com-maxrave-Nesic-MainKt.desktop"
             |update-desktop-database "${'$'}DESKTOP_DIR" 2>/dev/null || true
             |
             |# Cap glibc's per-thread malloc arenas.
@@ -494,7 +494,7 @@ tasks.register("packageConveyorAppImage") {
 // Single command for users: `./gradlew :desktopApp:buildLinuxAppImage --no-configuration-cache`
 tasks.register("buildLinuxAppImage") {
     group = "distribution"
-    description = "Full Dmusic Desktop Linux AppImage build pipeline (mpvSetupAll → conveyor → AppImage)."
+    description = "Full Nesic Desktop Linux AppImage build pipeline (mpvSetupAll → conveyor → AppImage)."
     dependsOn(conveyorMakeLinuxApp)
     finalizedBy("packageConveyorAppImage")
 }
@@ -538,13 +538,13 @@ val conveyorMakeMacZipAarch64 =
 
 tasks.register("buildMacZipAmd64") {
     group = "distribution"
-    description = "Full Dmusic Desktop macOS Intel .zip pipeline (mpvSetupAll → conveyor)."
+    description = "Full Nesic Desktop macOS Intel .zip pipeline (mpvSetupAll → conveyor)."
     dependsOn(conveyorMakeMacZipAmd64)
 }
 
 tasks.register("buildMacZipAarch64") {
     group = "distribution"
-    description = "Full Dmusic Desktop macOS Apple Silicon .zip pipeline (mpvSetupAll → conveyor)."
+    description = "Full Nesic Desktop macOS Apple Silicon .zip pipeline (mpvSetupAll → conveyor)."
     dependsOn(conveyorMakeMacZipAarch64)
 }
 
@@ -570,7 +570,7 @@ val conveyorMakeWindowsMsix =
 
 tasks.register("buildWindowsMsix") {
     group = "distribution"
-    description = "Full Dmusic Desktop Windows .msix pipeline (mpvSetupAll → conveyor)."
+    description = "Full Nesic Desktop Windows .msix pipeline (mpvSetupAll → conveyor)."
     dependsOn(conveyorMakeWindowsMsix)
 }
 

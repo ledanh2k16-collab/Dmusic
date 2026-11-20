@@ -39,9 +39,9 @@ import com.maxrave.logger.Logger
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.asExecutor
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.retry
-import dmusic.composeapp.generated.resources.unavailable
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.retry
+import nesic.composeapp.generated.resources.unavailable
 import java.util.concurrent.Executor
 import java.util.concurrent.atomic.AtomicBoolean
 

@@ -31,8 +31,8 @@ import com.maxrave.simpmusic.ui.icon.SimpIcons
 import com.maxrave.simpmusic.ui.theme.typo
 import com.maxrave.simpmusic.viewModel.NowPlayingScreenData
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.lyrics_offset_value
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.lyrics_offset_value
 
 // One tap moves the lyrics by this much: fine enough for Bluetooth latency, which is what the
 // offset exists for. A sheet that is seconds off is still quicker to type in Settings.

@@ -63,20 +63,20 @@ import kotlinx.coroutines.launch
 import multiplatform.network.cmptoast.ToastGravity
 import multiplatform.network.cmptoast.showToast
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.share_lyrics
-import dmusic.composeapp.generated.resources.share_lyrics_background
-import dmusic.composeapp.generated.resources.share_lyrics_continue
-import dmusic.composeapp.generated.resources.share_lyrics_max_reached
-import dmusic.composeapp.generated.resources.share_lyrics_permission_denied
-import dmusic.composeapp.generated.resources.share_lyrics_save
-import dmusic.composeapp.generated.resources.share_lyrics_save_failed
-import dmusic.composeapp.generated.resources.share_lyrics_saved
-import dmusic.composeapp.generated.resources.share_lyrics_saved_desktop
-import dmusic.composeapp.generated.resources.share_lyrics_select_title
-import dmusic.composeapp.generated.resources.share_lyrics_selected_count
-import dmusic.composeapp.generated.resources.share_lyrics_share_action
-import dmusic.composeapp.generated.resources.share_lyrics_share_failed
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.share_lyrics
+import nesic.composeapp.generated.resources.share_lyrics_background
+import nesic.composeapp.generated.resources.share_lyrics_continue
+import nesic.composeapp.generated.resources.share_lyrics_max_reached
+import nesic.composeapp.generated.resources.share_lyrics_permission_denied
+import nesic.composeapp.generated.resources.share_lyrics_save
+import nesic.composeapp.generated.resources.share_lyrics_save_failed
+import nesic.composeapp.generated.resources.share_lyrics_saved
+import nesic.composeapp.generated.resources.share_lyrics_saved_desktop
+import nesic.composeapp.generated.resources.share_lyrics_select_title
+import nesic.composeapp.generated.resources.share_lyrics_selected_count
+import nesic.composeapp.generated.resources.share_lyrics_share_action
+import nesic.composeapp.generated.resources.share_lyrics_share_failed
 import kotlin.random.Random
 
 /**

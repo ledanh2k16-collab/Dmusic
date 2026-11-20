@@ -113,26 +113,26 @@ import com.maxrave.simpmusic.ui.theme.typo
 import com.maxrave.simpmusic.viewModel.LyricsProvider
 import com.maxrave.simpmusic.viewModel.UIEvent
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.artists
-import dmusic.composeapp.generated.resources.description
-import dmusic.composeapp.generated.resources.like_and_dislike
-import dmusic.composeapp.generated.resources.line_synced
-import dmusic.composeapp.generated.resources.lyrics
-import dmusic.composeapp.generated.resources.lyrics_offset
-import dmusic.composeapp.generated.resources.lyrics_provider_betterlyrics
-import dmusic.composeapp.generated.resources.lyrics_provider_lrc
-import dmusic.composeapp.generated.resources.lyrics_provider_simpmusic
-import dmusic.composeapp.generated.resources.lyrics_provider_youtube
-import dmusic.composeapp.generated.resources.offline_mode
-import dmusic.composeapp.generated.resources.published_at
-import dmusic.composeapp.generated.resources.rate_lyrics
-import dmusic.composeapp.generated.resources.rich_synced
-import dmusic.composeapp.generated.resources.share_lyrics
-import dmusic.composeapp.generated.resources.show
-import dmusic.composeapp.generated.resources.spotify_lyrics_provider
-import dmusic.composeapp.generated.resources.unsynced
-import dmusic.composeapp.generated.resources.view_count
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.artists
+import nesic.composeapp.generated.resources.description
+import nesic.composeapp.generated.resources.like_and_dislike
+import nesic.composeapp.generated.resources.line_synced
+import nesic.composeapp.generated.resources.lyrics
+import nesic.composeapp.generated.resources.lyrics_offset
+import nesic.composeapp.generated.resources.lyrics_provider_betterlyrics
+import nesic.composeapp.generated.resources.lyrics_provider_lrc
+import nesic.composeapp.generated.resources.lyrics_provider_simpmusic
+import nesic.composeapp.generated.resources.lyrics_provider_youtube
+import nesic.composeapp.generated.resources.offline_mode
+import nesic.composeapp.generated.resources.published_at
+import nesic.composeapp.generated.resources.rate_lyrics
+import nesic.composeapp.generated.resources.rich_synced
+import nesic.composeapp.generated.resources.share_lyrics
+import nesic.composeapp.generated.resources.show
+import nesic.composeapp.generated.resources.spotify_lyrics_provider
+import nesic.composeapp.generated.resources.unsynced
+import nesic.composeapp.generated.resources.view_count
 
 // Shared shape for the below-the-fold tonal cards.
 private val ExpressiveCardShape = RoundedCornerShape(20.dp)

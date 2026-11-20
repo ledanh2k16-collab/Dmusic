@@ -39,9 +39,9 @@ import com.maxrave.simpmusic.ui.theme.typo
 import com.maxrave.simpmusic.viewModel.LogInViewModel
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.log_in_to_discord
-import dmusic.composeapp.generated.resources.login_success
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.log_in_to_discord
+import nesic.composeapp.generated.resources.login_success
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

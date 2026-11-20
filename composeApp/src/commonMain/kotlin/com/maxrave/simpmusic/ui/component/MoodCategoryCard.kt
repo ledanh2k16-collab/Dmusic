@@ -27,8 +27,8 @@ import com.maxrave.simpmusic.extension.angledGradientBackground
 import com.maxrave.simpmusic.ui.theme.ArtworkShape
 import com.maxrave.simpmusic.ui.theme.typo
 import org.jetbrains.compose.resources.painterResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.monochrome
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.monochrome
 
 /**
  * A "Moods & Genres" browse category tile: the [playlistTitleGradient] and SimpMusic badge of an

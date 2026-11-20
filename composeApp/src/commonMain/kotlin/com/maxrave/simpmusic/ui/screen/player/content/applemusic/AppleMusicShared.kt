@@ -114,9 +114,9 @@ import com.maxrave.simpmusic.ui.theme.ArtworkShape
 import com.maxrave.simpmusic.ui.theme.typo
 import com.maxrave.simpmusic.viewModel.UIEvent
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.crossfading
-import dmusic.composeapp.generated.resources.live_badge
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.crossfading
+import nesic.composeapp.generated.resources.live_badge
 import kotlin.math.roundToLong
 import org.koin.compose.koinInject
 

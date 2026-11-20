@@ -95,8 +95,8 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.five_seconds
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.five_seconds
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

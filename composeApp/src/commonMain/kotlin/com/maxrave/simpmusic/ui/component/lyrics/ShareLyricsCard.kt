@@ -32,8 +32,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.jetbrains.compose.resources.painterResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.mono
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.mono
 
 /**
  * The card's preferred width — a ceiling, not a fixed size.

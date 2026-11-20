@@ -16,10 +16,10 @@ import com.maxrave.simpmusic.ui.icon.SelectAll
 import com.maxrave.simpmusic.ui.icon.SimpIcons
 import com.maxrave.simpmusic.ui.theme.typo
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.exit_selection
-import dmusic.composeapp.generated.resources.n_selected
-import dmusic.composeapp.generated.resources.select_all
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.exit_selection
+import nesic.composeapp.generated.resources.n_selected
+import nesic.composeapp.generated.resources.select_all
 
 /**
  * Replaces a screen's own top bar while [state] is active.

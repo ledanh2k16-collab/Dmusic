@@ -14,11 +14,11 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.comment_post_error
-import dmusic.composeapp.generated.resources.comments_load_error
-import dmusic.composeapp.generated.resources.comments_need_channel
-import dmusic.composeapp.generated.resources.error
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.comment_post_error
+import nesic.composeapp.generated.resources.comments_load_error
+import nesic.composeapp.generated.resources.comments_need_channel
+import nesic.composeapp.generated.resources.error
 
 enum class CommentsStatus { LOADING, LOADED, TURNED_OFF, ERROR }
 

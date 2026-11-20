@@ -81,7 +81,7 @@ import com.maxrave.simpmusic.viewModel.NowPlayingScreenData
 import com.maxrave.simpmusic.viewModel.UIEvent
 import org.jetbrains.compose.resources.painterResource
 import org.koin.compose.koinInject
-import dmusic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.Res
 
 @Composable
 private fun MiniPlayerSeekBar(

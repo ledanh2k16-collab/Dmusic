@@ -54,24 +54,24 @@ import kotlinx.datetime.LocalDate
 import org.jetbrains.compose.resources.Font
 import org.jetbrains.compose.resources.imageResource
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.receipt_amount
-import dmusic.composeapp.generated.resources.receipt_auth_code
-import dmusic.composeapp.generated.resources.receipt_card
-import dmusic.composeapp.generated.resources.receipt_cardholder
-import dmusic.composeapp.generated.resources.receipt_date
-import dmusic.composeapp.generated.resources.receipt_entry_subtitle
-import dmusic.composeapp.generated.resources.receipt_entry_title
-import dmusic.composeapp.generated.resources.receipt_item
-import dmusic.composeapp.generated.resources.receipt_item_count
-import dmusic.composeapp.generated.resources.receipt_order
-import dmusic.composeapp.generated.resources.receipt_order_anonymous
-import dmusic.composeapp.generated.resources.receipt_paper
-import dmusic.composeapp.generated.resources.receipt_qty
-import dmusic.composeapp.generated.resources.receipt_share_title
-import dmusic.composeapp.generated.resources.receipt_thanks
-import dmusic.composeapp.generated.resources.receipt_total
-import dmusic.composeapp.generated.resources.space_mono_regular
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.receipt_amount
+import nesic.composeapp.generated.resources.receipt_auth_code
+import nesic.composeapp.generated.resources.receipt_card
+import nesic.composeapp.generated.resources.receipt_cardholder
+import nesic.composeapp.generated.resources.receipt_date
+import nesic.composeapp.generated.resources.receipt_entry_subtitle
+import nesic.composeapp.generated.resources.receipt_entry_title
+import nesic.composeapp.generated.resources.receipt_item
+import nesic.composeapp.generated.resources.receipt_item_count
+import nesic.composeapp.generated.resources.receipt_order
+import nesic.composeapp.generated.resources.receipt_order_anonymous
+import nesic.composeapp.generated.resources.receipt_paper
+import nesic.composeapp.generated.resources.receipt_qty
+import nesic.composeapp.generated.resources.receipt_share_title
+import nesic.composeapp.generated.resources.receipt_thanks
+import nesic.composeapp.generated.resources.receipt_total
+import nesic.composeapp.generated.resources.space_mono_regular
 import kotlin.math.roundToInt
 
 /** One printed row: how many times it was played, what it was, and how long it runs. */
@@ -358,7 +358,7 @@ private fun ListeningReceiptPaper(
             modifier = Modifier.align(Alignment.CenterHorizontally).padding(top = 10.dp, bottom = 4.dp),
         )
         Text(
-            text = "Dmusic",
+            text = "Nesic",
             modifier = Modifier.fillMaxWidth(),
             style = mono.copy(fontSize = 14.sp, lineHeight = 18.sp, textAlign = TextAlign.Center),
         )

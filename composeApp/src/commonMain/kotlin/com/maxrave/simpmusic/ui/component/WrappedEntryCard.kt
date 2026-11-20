@@ -37,9 +37,9 @@ import com.maxrave.simpmusic.ui.theme.ArtworkShape
 import com.maxrave.simpmusic.ui.theme.typo
 import com.maxrave.simpmusic.viewModel.WrappedYear
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.wrapped_entry_subtitle
-import dmusic.composeapp.generated.resources.wrapped_entry_title
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.wrapped_entry_subtitle
+import nesic.composeapp.generated.resources.wrapped_entry_title
 
 /**
  * The one entry point into the Wrapped reel, shown on the Analytics screen and at the top of the

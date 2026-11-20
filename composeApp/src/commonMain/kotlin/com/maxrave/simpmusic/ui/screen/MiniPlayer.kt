@@ -146,9 +146,9 @@ import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.crossfading
-import dmusic.composeapp.generated.resources.live_badge
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.crossfading
+import nesic.composeapp.generated.resources.live_badge
 import kotlin.math.roundToInt
 import kotlin.math.roundToLong
 

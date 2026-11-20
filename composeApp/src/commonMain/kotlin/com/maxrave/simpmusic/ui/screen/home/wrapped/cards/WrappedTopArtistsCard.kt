@@ -38,10 +38,10 @@ import com.maxrave.simpmusic.ui.screen.home.wrapped.formatCount
 import com.maxrave.simpmusic.viewModel.WrappedArtist
 import com.maxrave.simpmusic.viewModel.WrappedYear
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.wrapped_artists_title
-import dmusic.composeapp.generated.resources.wrapped_artists_two_years
-import dmusic.composeapp.generated.resources.wrapped_plays
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.wrapped_artists_title
+import nesic.composeapp.generated.resources.wrapped_artists_two_years
+import nesic.composeapp.generated.resources.wrapped_plays
 
 /**
  * Card 04 — a face, and the name written across it.

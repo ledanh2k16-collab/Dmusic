@@ -19,15 +19,15 @@ import androidx.compose.ui.unit.dp
 import com.maxrave.domain.data.model.librarysync.PendingSettings
 import com.maxrave.simpmusic.ui.theme.typo
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.day_s_ago
-import dmusic.composeapp.generated.resources.hour_s_ago
-import dmusic.composeapp.generated.resources.library_sync_apply_question
-import dmusic.composeapp.generated.resources.library_sync_apply_restart
-import dmusic.composeapp.generated.resources.library_sync_just_now
-import dmusic.composeapp.generated.resources.library_sync_minutes_ago
-import dmusic.composeapp.generated.resources.library_sync_not_now
-import dmusic.composeapp.generated.resources.library_sync_settings_from
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.day_s_ago
+import nesic.composeapp.generated.resources.hour_s_ago
+import nesic.composeapp.generated.resources.library_sync_apply_question
+import nesic.composeapp.generated.resources.library_sync_apply_restart
+import nesic.composeapp.generated.resources.library_sync_just_now
+import nesic.composeapp.generated.resources.library_sync_minutes_ago
+import nesic.composeapp.generated.resources.library_sync_not_now
+import nesic.composeapp.generated.resources.library_sync_settings_from
 import kotlin.time.Clock
 import kotlin.time.ExperimentalTime
 

@@ -160,23 +160,23 @@ import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.albums
-import dmusic.composeapp.generated.resources.artists
-import dmusic.composeapp.generated.resources.clear_search_history
-import dmusic.composeapp.generated.resources.error_occurred
-import dmusic.composeapp.generated.resources.everything_you_need
-import dmusic.composeapp.generated.resources.in_search
-import dmusic.composeapp.generated.resources.no_results_found
-import dmusic.composeapp.generated.resources.playlists
-import dmusic.composeapp.generated.resources.podcasts
-import dmusic.composeapp.generated.resources.recognize_song
-import dmusic.composeapp.generated.resources.retry
-import dmusic.composeapp.generated.resources.search_for
-import dmusic.composeapp.generated.resources.search_for_songs_artists_albums_playlists_and_more
-import dmusic.composeapp.generated.resources.song
-import dmusic.composeapp.generated.resources.videos
-import dmusic.composeapp.generated.resources.what_do_you_want_to_listen_to
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.albums
+import nesic.composeapp.generated.resources.artists
+import nesic.composeapp.generated.resources.clear_search_history
+import nesic.composeapp.generated.resources.error_occurred
+import nesic.composeapp.generated.resources.everything_you_need
+import nesic.composeapp.generated.resources.in_search
+import nesic.composeapp.generated.resources.no_results_found
+import nesic.composeapp.generated.resources.playlists
+import nesic.composeapp.generated.resources.podcasts
+import nesic.composeapp.generated.resources.recognize_song
+import nesic.composeapp.generated.resources.retry
+import nesic.composeapp.generated.resources.search_for
+import nesic.composeapp.generated.resources.search_for_songs_artists_albums_playlists_and_more
+import nesic.composeapp.generated.resources.song
+import nesic.composeapp.generated.resources.videos
+import nesic.composeapp.generated.resources.what_do_you_want_to_listen_to
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

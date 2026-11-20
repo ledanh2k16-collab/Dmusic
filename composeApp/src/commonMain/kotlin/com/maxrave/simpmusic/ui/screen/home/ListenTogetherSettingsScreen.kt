@@ -62,20 +62,20 @@ import com.maxrave.simpmusic.ui.theme.typo
 import com.maxrave.simpmusic.viewModel.ListenTogetherSettingsViewModel
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.listen_together
-import dmusic.composeapp.generated.resources.lt_as_host
-import dmusic.composeapp.generated.resources.lt_auto_approve_joins
-import dmusic.composeapp.generated.resources.lt_auto_approve_joins_desc
-import dmusic.composeapp.generated.resources.lt_blocked
-import dmusic.composeapp.generated.resources.lt_blocked_empty
-import dmusic.composeapp.generated.resources.lt_custom_server
-import dmusic.composeapp.generated.resources.lt_custom_server_desc
-import dmusic.composeapp.generated.resources.lt_default_server_location
-import dmusic.composeapp.generated.resources.lt_default_server_name
-import dmusic.composeapp.generated.resources.lt_save_server
-import dmusic.composeapp.generated.resources.lt_server
-import dmusic.composeapp.generated.resources.lt_unblock
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.listen_together
+import nesic.composeapp.generated.resources.lt_as_host
+import nesic.composeapp.generated.resources.lt_auto_approve_joins
+import nesic.composeapp.generated.resources.lt_auto_approve_joins_desc
+import nesic.composeapp.generated.resources.lt_blocked
+import nesic.composeapp.generated.resources.lt_blocked_empty
+import nesic.composeapp.generated.resources.lt_custom_server
+import nesic.composeapp.generated.resources.lt_custom_server_desc
+import nesic.composeapp.generated.resources.lt_default_server_location
+import nesic.composeapp.generated.resources.lt_default_server_name
+import nesic.composeapp.generated.resources.lt_save_server
+import nesic.composeapp.generated.resources.lt_server
+import nesic.composeapp.generated.resources.lt_unblock
 
 /** Matches ListenTogetherScreen — a phone-width column, centred in a wide window. */
 private const val CONTENT_MAX_WIDTH_DP = 560

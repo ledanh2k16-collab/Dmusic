@@ -21,8 +21,8 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.share_url
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.share_url
 
 // UI state cho podcast
 sealed class PodcastUIState {

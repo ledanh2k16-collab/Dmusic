@@ -151,10 +151,10 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.withTimeoutOrNull
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.comment_placeholder
-import dmusic.composeapp.generated.resources.crossfading
-import dmusic.composeapp.generated.resources.soundcloud_play_count_info
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.comment_placeholder
+import nesic.composeapp.generated.resources.crossfading
+import nesic.composeapp.generated.resources.soundcloud_play_count_info
 import kotlin.math.abs
 import kotlin.math.roundToInt
 

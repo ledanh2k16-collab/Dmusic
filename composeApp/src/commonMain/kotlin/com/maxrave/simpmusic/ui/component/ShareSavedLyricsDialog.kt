@@ -33,14 +33,14 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.DialogProperties
 import com.maxrave.simpmusic.ui.theme.typo
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.contributor_email
-import dmusic.composeapp.generated.resources.contributor_name
-import dmusic.composeapp.generated.resources.help_build_lyrics_database
-import dmusic.composeapp.generated.resources.help_build_lyrics_database_description
-import dmusic.composeapp.generated.resources.later
-import dmusic.composeapp.generated.resources.ok
-import dmusic.composeapp.generated.resources.use_anonymous
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.contributor_email
+import nesic.composeapp.generated.resources.contributor_name
+import nesic.composeapp.generated.resources.help_build_lyrics_database
+import nesic.composeapp.generated.resources.help_build_lyrics_database_description
+import nesic.composeapp.generated.resources.later
+import nesic.composeapp.generated.resources.ok
+import nesic.composeapp.generated.resources.use_anonymous
 
 @Composable
 @ExperimentalMaterial3Api

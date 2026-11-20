@@ -32,7 +32,7 @@ import com.maxrave.simpmusic.ui.icon.MoreVert
 import com.maxrave.simpmusic.ui.icon.SimpIcons
 import com.maxrave.simpmusic.ui.theme.typo
 import org.jetbrains.compose.resources.painterResource
-import dmusic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.Res
 
 @Composable
 fun PodcastEpisodeFullWidthItem(

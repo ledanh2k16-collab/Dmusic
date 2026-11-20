@@ -77,7 +77,7 @@ import com.maxrave.simpmusic.ui.icon.SimpIcons
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.distinctUntilChanged
 import org.jetbrains.compose.resources.painterResource
-import dmusic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.Res
 
 private val paddingMedium = 0.dp
 

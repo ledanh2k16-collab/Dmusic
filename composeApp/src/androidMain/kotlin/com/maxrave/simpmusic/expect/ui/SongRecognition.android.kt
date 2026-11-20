@@ -82,22 +82,22 @@ import com.maxrave.simpmusic.ui.theme.ArtworkShape
 import com.maxrave.simpmusic.ui.theme.typo
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.login_sync_open_settings
-import dmusic.composeapp.generated.resources.recognize_allow_mic
-import dmusic.composeapp.generated.resources.recognize_failed
-import dmusic.composeapp.generated.resources.recognize_failed_hint
-import dmusic.composeapp.generated.resources.recognize_find
-import dmusic.composeapp.generated.resources.recognize_identifying
-import dmusic.composeapp.generated.resources.recognize_listen_again
-import dmusic.composeapp.generated.resources.recognize_listening
-import dmusic.composeapp.generated.resources.recognize_listening_hint
-import dmusic.composeapp.generated.resources.recognize_mic_hint
-import dmusic.composeapp.generated.resources.recognize_mic_needed
-import dmusic.composeapp.generated.resources.recognize_no_match
-import dmusic.composeapp.generated.resources.recognize_no_match_hint
-import dmusic.composeapp.generated.resources.recognize_song
-import dmusic.composeapp.generated.resources.recognize_try_again
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.login_sync_open_settings
+import nesic.composeapp.generated.resources.recognize_allow_mic
+import nesic.composeapp.generated.resources.recognize_failed
+import nesic.composeapp.generated.resources.recognize_failed_hint
+import nesic.composeapp.generated.resources.recognize_find
+import nesic.composeapp.generated.resources.recognize_identifying
+import nesic.composeapp.generated.resources.recognize_listen_again
+import nesic.composeapp.generated.resources.recognize_listening
+import nesic.composeapp.generated.resources.recognize_listening_hint
+import nesic.composeapp.generated.resources.recognize_mic_hint
+import nesic.composeapp.generated.resources.recognize_mic_needed
+import nesic.composeapp.generated.resources.recognize_no_match
+import nesic.composeapp.generated.resources.recognize_no_match_hint
+import nesic.composeapp.generated.resources.recognize_song
+import nesic.composeapp.generated.resources.recognize_try_again
 
 private val OrbSize = 236.dp
 private val CoreSize = 118.dp

@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a reproducible issue in Dmusic
+description: Report a reproducible issue in Nesic
 labels: [ "bug:unconfirmed" ]
 
 body:

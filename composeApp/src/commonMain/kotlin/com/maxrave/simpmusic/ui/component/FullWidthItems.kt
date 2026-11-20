@@ -94,15 +94,15 @@ import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.add_to_queue
-import dmusic.composeapp.generated.resources.album
-import dmusic.composeapp.generated.resources.artists
-import dmusic.composeapp.generated.resources.play_next
-import dmusic.composeapp.generated.resources.playlist
-import dmusic.composeapp.generated.resources.podcasts
-import dmusic.composeapp.generated.resources.radio
-import dmusic.composeapp.generated.resources.you
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.add_to_queue
+import nesic.composeapp.generated.resources.album
+import nesic.composeapp.generated.resources.artists
+import nesic.composeapp.generated.resources.play_next
+import nesic.composeapp.generated.resources.playlist
+import nesic.composeapp.generated.resources.podcasts
+import nesic.composeapp.generated.resources.radio
+import nesic.composeapp.generated.resources.you
 import kotlin.math.roundToInt
 
 /**

@@ -1,4 +1,4 @@
-# Dmusic Contributor Covenant Code of Conduct
+# Nesic Contributor Covenant Code of Conduct
 
 ## Our Pledge
 

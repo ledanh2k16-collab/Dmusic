@@ -128,15 +128,15 @@ import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.album
-import dmusic.composeapp.generated.resources.album_length
-import dmusic.composeapp.generated.resources.baseline_downloaded
-import dmusic.composeapp.generated.resources.downloaded
-import dmusic.composeapp.generated.resources.downloading
-import dmusic.composeapp.generated.resources.no_description
-import dmusic.composeapp.generated.resources.other_version
-import dmusic.composeapp.generated.resources.year_and_category
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.album
+import nesic.composeapp.generated.resources.album_length
+import nesic.composeapp.generated.resources.baseline_downloaded
+import nesic.composeapp.generated.resources.downloaded
+import nesic.composeapp.generated.resources.downloading
+import nesic.composeapp.generated.resources.no_description
+import nesic.composeapp.generated.resources.other_version
+import nesic.composeapp.generated.resources.year_and_category
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

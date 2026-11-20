@@ -37,11 +37,11 @@ import kotlinx.datetime.atTime
 import kotlinx.datetime.minus
 import kotlinx.datetime.plus
 import org.koin.core.component.inject
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.playlist
-import dmusic.composeapp.generated.resources.removed_download
-import dmusic.composeapp.generated.resources.wrapped_recap_month
-import dmusic.composeapp.generated.resources.wrapped_recap_month_year
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.playlist
+import nesic.composeapp.generated.resources.removed_download
+import nesic.composeapp.generated.resources.wrapped_recap_month
+import nesic.composeapp.generated.resources.wrapped_recap_month_year
 
 class LibraryDynamicPlaylistViewModel(
     private val songRepository: SongRepository,

@@ -17,12 +17,12 @@ import com.maxrave.simpmusic.ui.navigation.destination.library.MixForYouDestinat
 import com.maxrave.simpmusic.ui.navigation.destination.search.SearchDestination
 import com.maxrave.simpmusic.viewModel.SharedViewModel
 import org.jetbrains.compose.resources.StringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.analytics
-import dmusic.composeapp.generated.resources.home
-import dmusic.composeapp.generated.resources.library
-import dmusic.composeapp.generated.resources.mix
-import dmusic.composeapp.generated.resources.search
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.analytics
+import nesic.composeapp.generated.resources.home
+import nesic.composeapp.generated.resources.library
+import nesic.composeapp.generated.resources.mix
+import nesic.composeapp.generated.resources.search
 import kotlin.reflect.KClass
 
 @Composable

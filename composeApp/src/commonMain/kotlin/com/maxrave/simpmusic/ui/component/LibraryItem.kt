@@ -72,12 +72,12 @@ import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.most_played
-import dmusic.composeapp.generated.resources.no_favorite_playlists
-import dmusic.composeapp.generated.resources.no_playlists_downloaded
-import dmusic.composeapp.generated.resources.radio
-import dmusic.composeapp.generated.resources.recently_added
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.most_played
+import nesic.composeapp.generated.resources.no_favorite_playlists
+import nesic.composeapp.generated.resources.no_playlists_downloaded
+import nesic.composeapp.generated.resources.radio
+import nesic.composeapp.generated.resources.recently_added
 import com.maxrave.domain.mediaservice.handler.PlaylistType as DomainPlaylistType
 
 @OptIn(ExperimentalMaterial3Api::class)

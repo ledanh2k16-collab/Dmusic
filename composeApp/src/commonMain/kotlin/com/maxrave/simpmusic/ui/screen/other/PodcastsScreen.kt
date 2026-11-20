@@ -96,10 +96,10 @@ import com.maxrave.simpmusic.viewModel.PodcastViewModel
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.album_length
-import dmusic.composeapp.generated.resources.no_description
-import dmusic.composeapp.generated.resources.podcasts
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.album_length
+import nesic.composeapp.generated.resources.no_description
+import nesic.composeapp.generated.resources.podcasts
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

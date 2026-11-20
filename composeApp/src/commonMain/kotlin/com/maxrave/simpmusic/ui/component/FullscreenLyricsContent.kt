@@ -130,10 +130,10 @@ import com.maxrave.simpmusic.viewModel.UIEvent
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.crossfading
-import dmusic.composeapp.generated.resources.share_lyrics
-import dmusic.composeapp.generated.resources.unavailable
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.crossfading
+import nesic.composeapp.generated.resources.share_lyrics
+import nesic.composeapp.generated.resources.unavailable
 import kotlin.math.PI
 import kotlin.math.cos
 import kotlin.math.sin

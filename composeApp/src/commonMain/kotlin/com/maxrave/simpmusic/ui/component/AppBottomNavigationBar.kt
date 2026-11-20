@@ -47,7 +47,7 @@ import com.maxrave.simpmusic.ui.navigation.destination.search.SearchDestination
 import com.maxrave.simpmusic.ui.theme.typo
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.*
+import nesic.composeapp.generated.resources.*
 import kotlin.math.roundToInt
 import kotlin.reflect.KClass
 

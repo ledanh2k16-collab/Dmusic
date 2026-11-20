@@ -162,23 +162,23 @@ import org.jetbrains.compose.resources.pluralStringResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.albums
-import dmusic.composeapp.generated.resources.baseline_favorite_24
-import dmusic.composeapp.generated.resources.description
-import dmusic.composeapp.generated.resources.error
-import dmusic.composeapp.generated.resources.featured_inArtist
-import dmusic.composeapp.generated.resources.liked_songs
-import dmusic.composeapp.generated.resources.liked_songs_by
-import dmusic.composeapp.generated.resources.liked_songs_count
-import dmusic.composeapp.generated.resources.more
-import dmusic.composeapp.generated.resources.no_description
-import dmusic.composeapp.generated.resources.popular
-import dmusic.composeapp.generated.resources.related_artists
-import dmusic.composeapp.generated.resources.share
-import dmusic.composeapp.generated.resources.singles
-import dmusic.composeapp.generated.resources.unknown
-import dmusic.composeapp.generated.resources.videos
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.albums
+import nesic.composeapp.generated.resources.baseline_favorite_24
+import nesic.composeapp.generated.resources.description
+import nesic.composeapp.generated.resources.error
+import nesic.composeapp.generated.resources.featured_inArtist
+import nesic.composeapp.generated.resources.liked_songs
+import nesic.composeapp.generated.resources.liked_songs_by
+import nesic.composeapp.generated.resources.liked_songs_count
+import nesic.composeapp.generated.resources.more
+import nesic.composeapp.generated.resources.no_description
+import nesic.composeapp.generated.resources.popular
+import nesic.composeapp.generated.resources.related_artists
+import nesic.composeapp.generated.resources.share
+import nesic.composeapp.generated.resources.singles
+import nesic.composeapp.generated.resources.unknown
+import nesic.composeapp.generated.resources.videos
 
 @Composable
 @ExperimentalMaterial3Api

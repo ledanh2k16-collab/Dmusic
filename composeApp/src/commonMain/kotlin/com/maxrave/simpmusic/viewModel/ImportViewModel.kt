@@ -13,8 +13,8 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.import_invalid_file
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.import_invalid_file
 
 /**
  * Drives an import of a file produced by the SimpMusic web converter.

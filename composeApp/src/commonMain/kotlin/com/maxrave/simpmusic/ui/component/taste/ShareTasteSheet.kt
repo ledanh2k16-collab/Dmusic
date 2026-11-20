@@ -40,10 +40,10 @@ import io.ktor.client.HttpClient
 import io.ktor.client.engine.cio.CIO
 import io.ktor.http.Url
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.taste_card_subtitle
-import dmusic.composeapp.generated.resources.taste_card_title
-import dmusic.composeapp.generated.resources.taste_share_title
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.taste_card_subtitle
+import nesic.composeapp.generated.resources.taste_card_title
+import nesic.composeapp.generated.resources.taste_share_title
 
 /**
  * The taste reading as an image to save or send, in the shared [ShareImageSheet].

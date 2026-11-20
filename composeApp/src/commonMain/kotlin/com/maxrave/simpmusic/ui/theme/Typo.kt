@@ -16,8 +16,8 @@ import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.sp
 import org.jetbrains.compose.resources.Font
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.poppins_medium
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.poppins_medium
 
 @Composable
 fun fontFamily(): FontFamily =

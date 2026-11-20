@@ -7,8 +7,8 @@ import com.maxrave.simpmusic.viewModel.base.BaseViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.error
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.error
 
 class MoreAlbumsViewModel(
     private val albumRepository: AlbumRepository,

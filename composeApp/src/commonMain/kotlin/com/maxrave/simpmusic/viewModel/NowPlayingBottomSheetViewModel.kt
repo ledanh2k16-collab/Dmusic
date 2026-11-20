@@ -39,19 +39,19 @@ import kotlinx.coroutines.flow.singleOrNull
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.core.component.inject
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.added_to_playlist
-import dmusic.composeapp.generated.resources.added_to_queue
-import dmusic.composeapp.generated.resources.added_to_youtube_playlist
-import dmusic.composeapp.generated.resources.delete_song_from_playlist
-import dmusic.composeapp.generated.resources.downloading
-import dmusic.composeapp.generated.resources.error
-import dmusic.composeapp.generated.resources.error_occurred
-import dmusic.composeapp.generated.resources.play_next
-import dmusic.composeapp.generated.resources.removed_download
-import dmusic.composeapp.generated.resources.removed_from_YouTube_playlist
-import dmusic.composeapp.generated.resources.share_url
-import dmusic.composeapp.generated.resources.sleep_timer_off_done
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.added_to_playlist
+import nesic.composeapp.generated.resources.added_to_queue
+import nesic.composeapp.generated.resources.added_to_youtube_playlist
+import nesic.composeapp.generated.resources.delete_song_from_playlist
+import nesic.composeapp.generated.resources.downloading
+import nesic.composeapp.generated.resources.error
+import nesic.composeapp.generated.resources.error_occurred
+import nesic.composeapp.generated.resources.play_next
+import nesic.composeapp.generated.resources.removed_download
+import nesic.composeapp.generated.resources.removed_from_YouTube_playlist
+import nesic.composeapp.generated.resources.share_url
+import nesic.composeapp.generated.resources.sleep_timer_off_done
 
 class NowPlayingBottomSheetViewModel(
     private val dataStoreManager: DataStoreManager,

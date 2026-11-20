@@ -127,18 +127,18 @@ import com.maxrave.simpmusic.viewModel.base.BaseViewModel
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.album
-import dmusic.composeapp.generated.resources.app_name
-import dmusic.composeapp.generated.resources.live_badge
-import dmusic.composeapp.generated.resources.description
-import dmusic.composeapp.generated.resources.more
-import dmusic.composeapp.generated.resources.play_all
-import dmusic.composeapp.generated.resources.playlist
-import dmusic.composeapp.generated.resources.radio
-import dmusic.composeapp.generated.resources.subscribers
-import dmusic.composeapp.generated.resources.wrapped_recap_subtitle
-import dmusic.composeapp.generated.resources.you
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.album
+import nesic.composeapp.generated.resources.app_name
+import nesic.composeapp.generated.resources.live_badge
+import nesic.composeapp.generated.resources.description
+import nesic.composeapp.generated.resources.more
+import nesic.composeapp.generated.resources.play_all
+import nesic.composeapp.generated.resources.playlist
+import nesic.composeapp.generated.resources.radio
+import nesic.composeapp.generated.resources.subscribers
+import nesic.composeapp.generated.resources.wrapped_recap_subtitle
+import nesic.composeapp.generated.resources.you
 
 @Composable
 fun HomeItem(

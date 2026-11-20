@@ -1,4 +1,4 @@
-# Dmusic
+# Nesic
 
 **Tác giả: LMD**
 
@@ -6,14 +6,14 @@ A FOSS YouTube Music client for Android and Desktop with many features from Spot
 
 ## Features ✨️
 - Play music from YouTube Music or YouTube for free, without ads and in the background
-- Recognize the song playing near you, then find it in Dmusic (Android) (NEW)
+- Recognize the song playing near you, then find it in Nesic (Android) (NEW)
 - Add your own synced lyrics, line by line or word by word, to songs that have none (NEW)
 - Read YouTube comments in Now Playing, and post, reply or like them when signed in (NEW)
 - Your library sidebar on Desktop with your playlists, albums, artists and podcasts (NEW)
 - Three Now Playing styles: Classic, Material 3 Expressive and a redesigned Apple Music player with Apple Music-style lyrics (NEW)
 - Ten-band equalizer with presets and AutoEq headphone profiles, plus Delay and Reverb effects, or your phone's system equalizer on Android (NEW)
-- Pick the speaker, headphones or Cast device Dmusic plays on, without moving other apps' audio (NEW)
-- Dmusic Wrapped: your year in music, plus monthly recap playlists (NEW)
+- Pick the speaker, headphones or Cast device Nesic plays on, without moving other apps' audio (NEW)
+- Nesic Wrapped: your year in music, plus monthly recap playlists (NEW)
 - On-device listening analytics: charts, period history, listening clock and a shareable listening receipt (NEW)
 - Word-by-word Apple Music-style lyrics, romanization for 12 languages, share lyrics as an image, landscape fullscreen lyrics and a timing offset (NEW)
 - Home screen widgets: turntable, playlists and listening insights (NEW)
@@ -23,7 +23,7 @@ A FOSS YouTube Music client for Android and Desktop with many features from Spot
 - Browsing Home, Charts, Podcast, Moods & Genre with YouTube Music data at high speed
 - Search everything on YouTube
 - Spotify Canvas and Animated Album Art supported (NEW)
-- Power your experience with Dmusic Chart
+- Power your experience with Nesic Chart
 - Play 1080p video option with subtitle
 - Play YouTube Music live stations (NEW)
 - AI song suggestions and an AI reading of your music taste (NEW)
@@ -33,7 +33,7 @@ A FOSS YouTube Music client for Android and Desktop with many features from Spot
 - Caching and offline playback support, plus Smart downloads of the songs you play most (Android) (NEW)
 - Crossfade with DJ-style like Apple Music
 - Customizing THEME (Light, Dark, Color, etc)
-- Synced lyrics from Dmusic Lyrics, LRCLIB, BetterLyrics, Spotify (require login) and YouTube Transcript - AI lyrics translation (BETA) (*)
+- Synced lyrics from Nesic Lyrics, LRCLIB, BetterLyrics, Spotify (require login) and YouTube Transcript - AI lyrics translation (BETA) (*)
 - Personalize data (**) and multi-YouTube-account support
 - Dislike songs on YouTube Music so it recommends them less (NEW)
 - Last.fm scrobbling (Full version)
@@ -91,12 +91,12 @@ A FOSS YouTube Music client for Android and Desktop with many features from Spot
 - Special thanks to [SmartTube](https://github.com/yuliskov/SmartTube) for helping extract the streaming URL of YouTube Music.
 - My app is using [SponsorBlock](https://sponsor.ajay.app/) to skip sponsor in YouTube videos.
 - ReturnYouTubeDislike for getting information on votes.
-- Main lyrics data from Dmusic Lyrics.
+- Main lyrics data from Nesic Lyrics.
 - Alternative lyrics data from LRCLIB. More information [LRCLIB](https://lrclib.net/).
 - Song recognition by Shazam, with the recognizer ported from Metrolist.
 
 ## Privacy
-Dmusic doesn't have any tracker or third-party server for collecting user data in FOSS version. If YouTube logged-in users enable "Send back to Google" feature, Dmusic only uses YouTube Music Tracking API to send listening history and listening record of video to Google for better recommendations and supporting artist or YouTube Creator.
+Nesic doesn't have any tracker or third-party server for collecting user data in FOSS version. If YouTube logged-in users enable "Send back to Google" feature, Nesic only uses YouTube Music Tracking API to send listening history and listening record of video to Google for better recommendations and supporting artist or YouTube Creator.
 
 We collect crash data in the Full version to improve the app.
 
@@ -106,7 +106,7 @@ Crashlytics is used to catch crashes in the Full version to help improve stabili
 ## Desktop app
 
 ### Which file should I download?
-- For Windows: Download `Dmusic-Windows-installer.zip`, unzip it and run `install.bat`.
+- For Windows: Download `Nesic-Windows-installer.zip`, unzip it and run `install.bat`.
 - For macOS (macOS 15 or newer): Download the file with extension `.dmg`.
 - For Linux: Download the file with extension `.AppImage` (all Linux distributions).
 
@@ -120,27 +120,27 @@ Please report issues on GitHub if you find any bugs.
 #### 1. Wrong Lyrics?
 Lyrics are provided by LRCLIB and other sources. Sometimes lyrics may not match perfectly with the YouTube `videoId` parameter. So we need to use some "String Matcher" and "Duration" to search lyrics. So sometimes, some songs or videos get the wrong lyrics.
 
-#### 2. Why the name "Dmusic"?
-Dmusic is designed to provide you with everything you need for a powerful, seamless music streaming experience.
+#### 2. Why the name "Nesic"?
+Nesic is designed to provide you with everything you need for a powerful, seamless music streaming experience.
 
 ## Contributing
-Dmusic is exclusively developed and maintained by LMD. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+Nesic is exclusively developed and maintained by LMD. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## Legal Disclaimer & Terms of Use
 
 ### 1. 100% Free, Open-Source & Strictly Non-Commercial
-Dmusic is a fully open-source project (FOSS) created purely for educational purposes and personal use. **We do not sell this application, nor do we monetize it in any way.** There are no advertisements, no premium features, no subscriptions, and no hidden fees within the app. This project has absolutely no commercial value or financial intent.
+Nesic is a fully open-source project (FOSS) created purely for educational purposes and personal use. **We do not sell this application, nor do we monetize it in any way.** There are no advertisements, no premium features, no subscriptions, and no hidden fees within the app. This project has absolutely no commercial value or financial intent.
 
 ### 2. A Custom Browser with Content Filtering
-Dmusic acts strictly as a specialized, third-party web browser and client. It simply parses the publicly available website content and APIs of YouTube and YouTube Music, rendering them in a custom user interface. The ad-free experience it provides is fundamentally no different from using a standard web browser (like Chrome, Firefox, or Brave) equipped with a common ad-blocking extension (such as uBlock Origin).
+Nesic acts strictly as a specialized, third-party web browser and client. It simply parses the publicly available website content and APIs of YouTube and YouTube Music, rendering them in a custom user interface. The ad-free experience it provides is fundamentally no different from using a standard web browser (like Chrome, Firefox, or Brave) equipped with a common ad-blocking extension (such as uBlock Origin).
 
 ### 3. Support Content Creators
-We deeply respect the hard work of artists, musicians, and content creators. **We strongly encourage all users to subscribe to [YouTube Premium](https://www.youtube.com/premium).** Purchasing a Premium subscription is the best way to financially support the creators you listen to and ensure the continued growth of the platform. Dmusic is built as a proof-of-concept for developers and enthusiasts, not to harm creators' revenues.
+We deeply respect the hard work of artists, musicians, and content creators. **We strongly encourage all users to subscribe to [YouTube Premium](https://www.youtube.com/premium).** Purchasing a Premium subscription is the best way to financially support the creators you listen to and ensure the continued growth of the platform. Nesic is built as a proof-of-concept for developers and enthusiasts, not to harm creators' revenues.
 
 ### 4. No Hosting of Copyrighted Material
 We do not host, upload, distribute, or store any audio, video, or copyrighted media files on our own servers. All content accessed through this application is stored entirely on Google's/YouTube's servers and remains the property of their respective copyright owners. The app merely acts as a conduit to stream publicly accessible links.
 
 ### 5. User Responsibility & Legal Contact
-The software is provided "AS IS", without warranty of any kind. The developer (LMD) of Dmusic does not encourage or condone piracy. Users are solely responsible for ensuring their usage of this app complies with their local copyright laws and the Terms of Service of the platforms they access.
+The software is provided "AS IS", without warranty of any kind. The developer (LMD) of Nesic does not encourage or condone piracy. Users are solely responsible for ensuring their usage of this app complies with their local copyright laws and the Terms of Service of the platforms they access.
 
 Because we do not host any media files, we cannot process DMCA takedown requests for audio or video content. However, if you represent a copyright holder or have legal concerns regarding the open-source code itself, please contact us via email at: **ledanh2k16@gmail.com**

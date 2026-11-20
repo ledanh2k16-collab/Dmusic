@@ -52,11 +52,11 @@ import kotlinx.datetime.atTime
 import kotlinx.datetime.minus
 import kotlinx.datetime.number
 import kotlinx.datetime.plus
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.added_local_playlist
-import dmusic.composeapp.generated.resources.wrapped_recap_month
-import dmusic.composeapp.generated.resources.wrapped_recap_month_year
-import dmusic.composeapp.generated.resources.youtube_liked_music
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.added_local_playlist
+import nesic.composeapp.generated.resources.wrapped_recap_month
+import nesic.composeapp.generated.resources.wrapped_recap_month_year
+import nesic.composeapp.generated.resources.youtube_liked_music
 
 class LibraryViewModel(
     private val dataStoreManager: DataStoreManager,

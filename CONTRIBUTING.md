@@ -1,6 +1,6 @@
-# Contributing to Dmusic
+# Contributing to Nesic
 
-Dự án Dmusic do LMD độc quyền phát triển và duy trì (The Dmusic project is exclusively developed and maintained by LMD).
+Dự án Nesic do LMD độc quyền phát triển và duy trì (The Nesic project is exclusively developed and maintained by LMD).
 
 ## Guidelines
 

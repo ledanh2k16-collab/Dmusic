@@ -60,9 +60,9 @@ import dev.chrisbanes.haze.rememberHazeState
 import org.jetbrains.compose.resources.getString
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.log_in_to_spotify
-import dmusic.composeapp.generated.resources.login_success
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.log_in_to_spotify
+import nesic.composeapp.generated.resources.login_success
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

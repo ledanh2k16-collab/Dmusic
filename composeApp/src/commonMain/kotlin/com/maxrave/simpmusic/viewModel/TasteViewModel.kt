@@ -33,9 +33,9 @@ import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.atTime
 import kotlinx.datetime.minus
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.taste_error_generic
-import dmusic.composeapp.generated.resources.taste_not_configured_title
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.taste_error_generic
+import nesic.composeapp.generated.resources.taste_not_configured_title
 import kotlin.coroutines.cancellation.CancellationException
 
 /**

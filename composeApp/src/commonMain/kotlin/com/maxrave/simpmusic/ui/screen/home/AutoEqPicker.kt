@@ -41,13 +41,13 @@ import com.maxrave.simpmusic.viewModel.AutoEqStatus
 import com.maxrave.simpmusic.viewModel.AutoEqViewModel
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.equalizer_autoeq_choose
-import dmusic.composeapp.generated.resources.equalizer_autoeq_downloading
-import dmusic.composeapp.generated.resources.equalizer_autoeq_empty
-import dmusic.composeapp.generated.resources.equalizer_autoeq_failed
-import dmusic.composeapp.generated.resources.equalizer_autoeq_search
-import dmusic.composeapp.generated.resources.equalizer_autoeq_unavailable
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.equalizer_autoeq_choose
+import nesic.composeapp.generated.resources.equalizer_autoeq_downloading
+import nesic.composeapp.generated.resources.equalizer_autoeq_empty
+import nesic.composeapp.generated.resources.equalizer_autoeq_failed
+import nesic.composeapp.generated.resources.equalizer_autoeq_search
+import nesic.composeapp.generated.resources.equalizer_autoeq_unavailable
 
 private val MENU_LIST_MAX_HEIGHT = 280.dp
 

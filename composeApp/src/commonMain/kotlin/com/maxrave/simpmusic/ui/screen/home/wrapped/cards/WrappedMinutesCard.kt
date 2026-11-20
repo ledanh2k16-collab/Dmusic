@@ -24,11 +24,11 @@ import com.maxrave.simpmusic.ui.screen.home.wrapped.wholeDays
 import com.maxrave.simpmusic.ui.screen.home.wrapped.wholeMinutes
 import com.maxrave.simpmusic.viewModel.WrappedYear
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.wrapped_minutes_caption
-import dmusic.composeapp.generated.resources.wrapped_minutes_title
-import dmusic.composeapp.generated.resources.wrapped_minutes_unit
-import dmusic.composeapp.generated.resources.wrapped_minutes_whole_days
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.wrapped_minutes_caption
+import nesic.composeapp.generated.resources.wrapped_minutes_title
+import nesic.composeapp.generated.resources.wrapped_minutes_unit
+import nesic.composeapp.generated.resources.wrapped_minutes_whole_days
 
 /**
  * Card 02 — one number, as big as the card will hold it.

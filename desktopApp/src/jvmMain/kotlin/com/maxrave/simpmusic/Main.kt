@@ -31,7 +31,7 @@ import java.awt.Toolkit
  * conveyor.conf). The value MUST match StartupWMClass in the generated .desktop
  * file, else GNOME/KDE won't bind the launcher icon to the window.
  */
-private fun forceLinuxWmClass(appName: String = "Dmusic") {
+private fun forceLinuxWmClass(appName: String = "Nesic") {
     if (!System.getProperty("os.name").orEmpty().contains("linux", ignoreCase = true)) return
     runCatching {
         val toolkit = Toolkit.getDefaultToolkit()

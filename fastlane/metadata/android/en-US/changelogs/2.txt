@@ -10,7 +10,7 @@ New Feature:
 - Move or remove Queue Track
 - Backup and restore data ()
 - Add swipe to remove miniplayer
-- Add Dmusic to YouTube, YouTube Music's share menu ()
+- Add Nesic to YouTube, YouTube Music's share menu ()
 - Open YouTube link by default
 - Add static shortcuts
 - Auto save lyrics for offline playback

@@ -62,16 +62,16 @@ import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.getString
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.create
-import dmusic.composeapp.generated.resources.create_playlist_description
-import dmusic.composeapp.generated.resources.create_room_description
-import dmusic.composeapp.generated.resources.create_room_live
-import dmusic.composeapp.generated.resources.listen_together
-import dmusic.composeapp.generated.resources.local_playlist
-import dmusic.composeapp.generated.resources.playlist_name
-import dmusic.composeapp.generated.resources.playlist_name_cannot_be_empty
-import dmusic.composeapp.generated.resources.settings
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.create
+import nesic.composeapp.generated.resources.create_playlist_description
+import nesic.composeapp.generated.resources.create_room_description
+import nesic.composeapp.generated.resources.create_room_live
+import nesic.composeapp.generated.resources.listen_together
+import nesic.composeapp.generated.resources.local_playlist
+import nesic.composeapp.generated.resources.playlist_name
+import nesic.composeapp.generated.resources.playlist_name_cannot_be_empty
+import nesic.composeapp.generated.resources.settings
 
 /**
  * The top-bar "+" (Spotify's Create): a local playlist or a Listen Together room.

@@ -64,13 +64,13 @@ object CrashDialog {
 
         val stackTrace = StringWriter().also { throwable.printStackTrace(PrintWriter(it)) }.toString()
         val versionInfo = try {
-            "Dmusic Desktop v${VersionManager.getVersionName()}"
+            "Nesic Desktop v${VersionManager.getVersionName()}"
         } catch (_: Exception) {
-            "Dmusic Desktop"
+            "Nesic Desktop"
         }
 
         val dialog = JDialog().apply {
-            title = "Dmusic - Unexpected Error"
+            title = "Nesic - Unexpected Error"
             isModal = true
             defaultCloseOperation = JDialog.DISPOSE_ON_CLOSE
             preferredSize = Dimension(700, 500)
@@ -83,7 +83,7 @@ object CrashDialog {
 
         // Header
         val headerPanel = JPanel(BorderLayout(8, 4)).apply {
-            val titleLabel = JLabel("Dmusic has crashed").apply {
+            val titleLabel = JLabel("Nesic has crashed").apply {
                 font = font.deriveFont(Font.BOLD, 16f)
             }
             val subtitleLabel = JLabel(

@@ -32,13 +32,13 @@ import com.maxrave.simpmusic.ui.icon.ArrowBackIosNew
 import com.maxrave.simpmusic.ui.icon.SimpIcons
 import com.maxrave.simpmusic.viewModel.WrappedUiState
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.wrapped
-import dmusic.composeapp.generated.resources.wrapped_not_enough_body
-import dmusic.composeapp.generated.resources.wrapped_not_enough_days
-import dmusic.composeapp.generated.resources.wrapped_not_enough_progress
-import dmusic.composeapp.generated.resources.wrapped_not_enough_title
-import dmusic.composeapp.generated.resources.wrapped_open_analytics
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.wrapped
+import nesic.composeapp.generated.resources.wrapped_not_enough_body
+import nesic.composeapp.generated.resources.wrapped_not_enough_days
+import nesic.composeapp.generated.resources.wrapped_not_enough_progress
+import nesic.composeapp.generated.resources.wrapped_not_enough_title
+import nesic.composeapp.generated.resources.wrapped_open_analytics
 
 /**
  * What the reel shows when the year is too thin to say anything true.

@@ -47,14 +47,14 @@ import kotlinx.coroutines.launch
 import multiplatform.network.cmptoast.ToastGravity
 import multiplatform.network.cmptoast.showToast
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.share_lyrics_permission_denied
-import dmusic.composeapp.generated.resources.share_lyrics_save
-import dmusic.composeapp.generated.resources.share_lyrics_save_failed
-import dmusic.composeapp.generated.resources.share_lyrics_saved
-import dmusic.composeapp.generated.resources.share_lyrics_saved_desktop
-import dmusic.composeapp.generated.resources.share_lyrics_share_action
-import dmusic.composeapp.generated.resources.share_lyrics_share_failed
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.share_lyrics_permission_denied
+import nesic.composeapp.generated.resources.share_lyrics_save
+import nesic.composeapp.generated.resources.share_lyrics_save_failed
+import nesic.composeapp.generated.resources.share_lyrics_saved
+import nesic.composeapp.generated.resources.share_lyrics_saved_desktop
+import nesic.composeapp.generated.resources.share_lyrics_share_action
+import nesic.composeapp.generated.resources.share_lyrics_share_failed
 import kotlin.random.Random
 
 /**

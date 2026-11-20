@@ -62,15 +62,15 @@ import com.maxrave.simpmusic.ui.theme.typo
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.audio_output
-import dmusic.composeapp.generated.resources.audio_output_bluetooth
-import dmusic.composeapp.generated.resources.audio_output_cast
-import dmusic.composeapp.generated.resources.audio_output_hdmi
-import dmusic.composeapp.generated.resources.audio_output_playing_here
-import dmusic.composeapp.generated.resources.audio_output_system_default
-import dmusic.composeapp.generated.resources.audio_output_usb
-import dmusic.composeapp.generated.resources.audio_output_wired
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.audio_output
+import nesic.composeapp.generated.resources.audio_output_bluetooth
+import nesic.composeapp.generated.resources.audio_output_cast
+import nesic.composeapp.generated.resources.audio_output_hdmi
+import nesic.composeapp.generated.resources.audio_output_playing_here
+import nesic.composeapp.generated.resources.audio_output_system_default
+import nesic.composeapp.generated.resources.audio_output_usb
+import nesic.composeapp.generated.resources.audio_output_wired
 
 /**
  * [AppleMusicOutputSheet] wired straight to the player, for the Now Playing styles that only need

@@ -171,13 +171,14 @@
                 <data android:pathPrefix="/app/" />
             </intent-filter>
 
-            <!-- Dmusic deep link filter (custom scheme) -->
+            <!-- Nesic deep link filter (custom scheme) -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
+                <data android:scheme="nesic" />
                 <data android:scheme="dmusic" />
                 <data android:scheme="simpmusic" />
             </intent-filter>

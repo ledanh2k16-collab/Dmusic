@@ -15,9 +15,9 @@ import com.maxrave.domain.extension.now
 import com.maxrave.simpmusic.ui.theme.typo
 import com.maxrave.simpmusic.utils.VersionManager
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.app_name
-import dmusic.composeapp.generated.resources.version_format
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.app_name
+import nesic.composeapp.generated.resources.version_format
 
 @Composable
 fun EndOfPage(withoutCredit: Boolean = false) {

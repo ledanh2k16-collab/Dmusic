@@ -33,12 +33,12 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.radio
-import dmusic.composeapp.generated.resources.shuffle
-import dmusic.composeapp.generated.resources.sync_follow_failed
-import dmusic.composeapp.generated.resources.subscribed_on_youtube
-import dmusic.composeapp.generated.resources.unsubscribed_on_youtube
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.radio
+import nesic.composeapp.generated.resources.shuffle
+import nesic.composeapp.generated.resources.sync_follow_failed
+import nesic.composeapp.generated.resources.subscribed_on_youtube
+import nesic.composeapp.generated.resources.unsubscribed_on_youtube
 import org.jetbrains.compose.resources.getString
 
 class ArtistViewModel(

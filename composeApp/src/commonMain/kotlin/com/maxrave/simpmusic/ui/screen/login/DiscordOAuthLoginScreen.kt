@@ -49,17 +49,17 @@ import com.maxrave.simpmusic.viewModel.LogInViewModel
 import org.jetbrains.compose.resources.getString
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.discord_login_failed
-import dmusic.composeapp.generated.resources.discord_login_step_1
-import dmusic.composeapp.generated.resources.discord_login_step_2
-import dmusic.composeapp.generated.resources.discord_open_authorize_page
-import dmusic.composeapp.generated.resources.lastfm_paste_callback_confirm
-import dmusic.composeapp.generated.resources.lastfm_paste_callback_hint
-import dmusic.composeapp.generated.resources.lastfm_paste_callback_title
-import dmusic.composeapp.generated.resources.log_in_to_discord
-import dmusic.composeapp.generated.resources.login_success
-import dmusic.composeapp.generated.resources.rich_presence_info
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.discord_login_failed
+import nesic.composeapp.generated.resources.discord_login_step_1
+import nesic.composeapp.generated.resources.discord_login_step_2
+import nesic.composeapp.generated.resources.discord_open_authorize_page
+import nesic.composeapp.generated.resources.lastfm_paste_callback_confirm
+import nesic.composeapp.generated.resources.lastfm_paste_callback_hint
+import nesic.composeapp.generated.resources.lastfm_paste_callback_title
+import nesic.composeapp.generated.resources.log_in_to_discord
+import nesic.composeapp.generated.resources.login_success
+import nesic.composeapp.generated.resources.rich_presence_info
 
 /** Desktop is far wider than any reading measure — the column stops here and centres. */
 private val CONTENT_MAX_WIDTH = 420.dp

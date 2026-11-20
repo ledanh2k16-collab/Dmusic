@@ -26,9 +26,9 @@ import multiplatform.network.cmptoast.showToast
 import org.jetbrains.compose.resources.StringResource
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.error
-import dmusic.composeapp.generated.resources.loading
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.error
+import nesic.composeapp.generated.resources.loading
 
 abstract class BaseViewModel :
     ViewModel(),

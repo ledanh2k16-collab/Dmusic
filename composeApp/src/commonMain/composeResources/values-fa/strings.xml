@@ -206,8 +206,8 @@
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">یک خطای غیرمنتظره
     رخ داده است. از بابت ناراحتی عذرخواهی می‌کنیم.</string>
     <string name="customactivityoncrash_error_activity_restart_app">برنامه را دوباره راه‌اندازی کنید</string>
-    <string name="help_build_lyrics_database">به Dmusic کمک کنید تا پایگاه داده متن ترانه را بسازد</string>
-    <string name="help_build_lyrics_database_description">متن ترانه‌های ذخیره شده خود را به پایگاه داده متن Dmusic ارسال کنید</string>
+    <string name="help_build_lyrics_database">به Nesic کمک کنید تا پایگاه داده متن ترانه را بسازد</string>
+    <string name="help_build_lyrics_database_description">متن ترانه‌های ذخیره شده خود را به پایگاه داده متن Nesic ارسال کنید</string>
     <string name="customactivityoncrash_error_activity_close_app">برنامه را ببندید</string>
     <string name="customactivityoncrash_error_activity_error_details">ریزگان خطا</string>
     <string name="customactivityoncrash_error_activity_error_details_title">ریزگان خطا</string>
@@ -281,7 +281,7 @@
     <string name="older_first">ابتدا قدیمی تر</string>
     <string name="newer_first">ابتدا جدیدتر</string>
     <string name="added_date">تاریخ افزوده شدن</string>
-    <string name="credit_app">یک برنامه موسیقی ساده که از هسته یوتیوب موزیک بهره میبرد\n\nDmusic یک پروژه متن‌باز برای پخش موسیقی از یوتیوب و یوتیوب موزیک بدون آگهی و ردیابی است. Dmusic ویژگی‌های زیادی ارائه می‌دهد:\n\n - پخش موسیقی \n - متن ترانه همگام‌سازی شده\n - داده‌های شخصی‌سازی شده\n - و غیره… \n\nDmusic همیشه رایگان و بدون آگهی است\n\nBuild with ❤️ from LMD</string>
+    <string name="credit_app">یک برنامه موسیقی ساده که از هسته یوتیوب موزیک بهره میبرد\n\nNesic یک پروژه متن‌باز برای پخش موسیقی از یوتیوب و یوتیوب موزیک بدون آگهی و ردیابی است. Nesic ویژگی‌های زیادی ارائه می‌دهد:\n\n - پخش موسیقی \n - متن ترانه همگام‌سازی شده\n - داده‌های شخصی‌سازی شده\n - و غیره… \n\nNesic همیشه رایگان و بدون آگهی است\n\nBuild with ❤️ from LMD</string>
     <string name="issue_tracker">ردیاب مشکلات</string>
     <string name="featured_playlists">فهرست‌های پخش ویژه</string>
     <string name="featured_inArtist">ویژه در</string>
@@ -323,7 +323,7 @@
     <string name="enable_spotify_lyrics">به‌کارگیری متن ترانه اسپاتیفای</string>
     <string name="spotify_lyrícs_info">متن‌های بیشتری بدون ترجمه</string>
     <string name="enable_canvas">به‌کارگیری بوم</string>
-    <string name="canvas_info">نمایش بوم اسپاتیفای در Dmusic</string>
+    <string name="canvas_info">نمایش بوم اسپاتیفای در Nesic</string>
     <string name="spotify_lyrics_provider">متن ترانه ارائه شده توسط اسپاتیفای</string>
     <string name="offline_mode">حالت آفلاین</string>
     <string name="added_to_youtube_liked">به فهرست پسندیده‌های یوتیوب افزوده شد</string>
@@ -370,7 +370,7 @@
     <string name="loading">درحال بارگذاری</string>
     <string name="updating">در حال بروز رسانی</string>
     <string name="go_to_log_in_page">به صفحه ورود به سیستم بروید</string>
-    <string name="log_in_warning">YouTube Music اکنون از شما می خواهد که برای پخش موسیقی وارد شوید، Piped Instance گاهی اوقات نیز نمی تواند کار کند. برای کسب تجربه بهتر با Dmusic باید وارد YouTube شوید.</string>
+    <string name="log_in_warning">YouTube Music اکنون از شما می خواهد که برای پخش موسیقی وارد شوید، Piped Instance گاهی اوقات نیز نمی تواند کار کند. برای کسب تجربه بهتر با Nesic باید وارد YouTube شوید.</string>
     <string name="spotify_canvas_cache">کش Spotify Canvas</string>
     <string name="clear_canvas_cache">پاکسازی کش canvas</string>
     <string name="proxy">پروکسی</string>
@@ -405,8 +405,8 @@
     <string name="other_version">نسخه دیگر</string>
     <string name="later">بعدا</string>
     <string name="give_a_star">ستاره بدید</string>
-    <string name="enjoying_simpmusic">از Dmusic لذت می‌بری</string>
-    <string name="if_you_enjoy_using_simpmusic_star_simpmusic_on_github_or_leave_a_review_on">اگر از استفاده از Dmusic لذت می‌برید، به Dmusic در GitHub ستاره دهید یا نظر خود را درباره آن بنویسید</string>
+    <string name="enjoying_simpmusic">از Nesic لذت می‌بری</string>
+    <string name="if_you_enjoy_using_simpmusic_star_simpmusic_on_github_or_leave_a_review_on">اگر از استفاده از Nesic لذت می‌برید، به Nesic در GitHub ستاره دهید یا نظر خود را درباره آن بنویسید</string>
     <string name="if_you_love_my_work_consider">"اگر از کار من خوشتان می‌آید، لطفاً "</string>
     <string name="buying_me_a_coffee">یک قهوه برایم بخرید.</string>
     <string name="fade_audio_effect">افکت محو صدا</string>
@@ -451,8 +451,8 @@
     <string name="contributor_name">اسم مشارکت کننده</string>
     <string name="contributor_email">ایمیل مشارکت کننده</string>
     <string name="anonymous">ناشناس</string>
-    <string name="simpmusic_lyrics">متن ترانه‌های Dmusic</string>
-    <string name="lyrics_provider_simpmusic">متن ترانه‌ها ارائه شده توسط سرویس متن ترانه‌های Dmusic</string>
+    <string name="simpmusic_lyrics">متن ترانه‌های Nesic</string>
+    <string name="lyrics_provider_simpmusic">متن ترانه‌ها ارائه شده توسط سرویس متن ترانه‌های Nesic</string>
     <string name="backup_in_progress">پشتیبان گیری در حال انجام است</string>
     <!-- Listen Together -->
 </resources>

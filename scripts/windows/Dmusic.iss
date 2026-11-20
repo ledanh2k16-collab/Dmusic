@@ -1,9 +1,9 @@
 ; Inno Setup Script for Dmusic Windows Installer
-#define MyAppName "Dmusic"
+#define MyAppName "Nesic"
 #define MyAppVersion "2.6.0"
 #define MyAppPublisher "LMD"
 #define MyAppURL "https://github.com/maxrave-dev/SimpMusic"
-#define MyAppExeName "dmusic.exe"
+#define MyAppExeName "nesic.exe"
 #define SourceAppDir "..\..\desktopApp\build\compose\binaries\main\app\dmusic"
 
 [Setup]
@@ -17,7 +17,7 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 DisableProgramGroupPage=yes
 OutputDir=C:\Users\Mrs Thao\Desktop\Dmusic
-OutputBaseFilename=Dmusic-Windows-Setup-x64
+OutputBaseFilename=Nesic-Windows-Setup-x64
 SetupIconFile=..\..\composeApp\icon\circle_app_icon.ico
 Compression=lzma2/ultra64
 SolidCompression=yes

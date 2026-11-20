@@ -44,20 +44,20 @@ import com.maxrave.simpmusic.ui.theme.typo
 import com.maxrave.simpmusic.viewModel.LoginSyncHostViewModel
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.cancel
-import dmusic.composeapp.generated.resources.login_sync_android_title
-import dmusic.composeapp.generated.resources.login_sync_desktop_instructions
-import dmusic.composeapp.generated.resources.login_sync_desktop_title
-import dmusic.composeapp.generated.resources.login_sync_expired
-import dmusic.composeapp.generated.resources.login_sync_new_code
-import dmusic.composeapp.generated.resources.login_sync_no_network
-import dmusic.composeapp.generated.resources.login_sync_phone_connected
-import dmusic.composeapp.generated.resources.login_sync_pick_address
-import dmusic.composeapp.generated.resources.login_sync_receive_failed
-import dmusic.composeapp.generated.resources.login_sync_received
-import dmusic.composeapp.generated.resources.login_sync_start_failed
-import dmusic.composeapp.generated.resources.ok
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.cancel
+import nesic.composeapp.generated.resources.login_sync_android_title
+import nesic.composeapp.generated.resources.login_sync_desktop_instructions
+import nesic.composeapp.generated.resources.login_sync_desktop_title
+import nesic.composeapp.generated.resources.login_sync_expired
+import nesic.composeapp.generated.resources.login_sync_new_code
+import nesic.composeapp.generated.resources.login_sync_no_network
+import nesic.composeapp.generated.resources.login_sync_phone_connected
+import nesic.composeapp.generated.resources.login_sync_pick_address
+import nesic.composeapp.generated.resources.login_sync_receive_failed
+import nesic.composeapp.generated.resources.login_sync_received
+import nesic.composeapp.generated.resources.login_sync_start_failed
+import nesic.composeapp.generated.resources.ok
 
 @Composable
 actual fun LoginSyncDialog(onDismiss: () -> Unit) {

@@ -58,23 +58,23 @@ import com.maxrave.simpmusic.utils.checkUserLrc
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.pluralStringResource
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.add_lyrics
-import dmusic.composeapp.generated.resources.add_lyrics_bad_offset
-import dmusic.composeapp.generated.resources.add_lyrics_bad_time
-import dmusic.composeapp.generated.resources.add_lyrics_bad_word_time
-import dmusic.composeapp.generated.resources.add_lyrics_hint
-import dmusic.composeapp.generated.resources.add_lyrics_line
-import dmusic.composeapp.generated.resources.add_lyrics_lines
-import dmusic.composeapp.generated.resources.add_lyrics_no_time
-import dmusic.composeapp.generated.resources.add_lyrics_no_timed_lines
-import dmusic.composeapp.generated.resources.add_lyrics_placeholder
-import dmusic.composeapp.generated.resources.add_lyrics_problems
-import dmusic.composeapp.generated.resources.add_lyrics_repeated_word_line
-import dmusic.composeapp.generated.resources.add_lyrics_word_time_backwards
-import dmusic.composeapp.generated.resources.line_synced
-import dmusic.composeapp.generated.resources.rich_synced
-import dmusic.composeapp.generated.resources.save
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.add_lyrics
+import nesic.composeapp.generated.resources.add_lyrics_bad_offset
+import nesic.composeapp.generated.resources.add_lyrics_bad_time
+import nesic.composeapp.generated.resources.add_lyrics_bad_word_time
+import nesic.composeapp.generated.resources.add_lyrics_hint
+import nesic.composeapp.generated.resources.add_lyrics_line
+import nesic.composeapp.generated.resources.add_lyrics_lines
+import nesic.composeapp.generated.resources.add_lyrics_no_time
+import nesic.composeapp.generated.resources.add_lyrics_no_timed_lines
+import nesic.composeapp.generated.resources.add_lyrics_placeholder
+import nesic.composeapp.generated.resources.add_lyrics_problems
+import nesic.composeapp.generated.resources.add_lyrics_repeated_word_line
+import nesic.composeapp.generated.resources.add_lyrics_word_time_backwards
+import nesic.composeapp.generated.resources.line_synced
+import nesic.composeapp.generated.resources.rich_synced
+import nesic.composeapp.generated.resources.save
 
 /**
  * Lyrics typed or pasted by hand for a song no provider has lyrics for: plain LRC, or eLRC timed

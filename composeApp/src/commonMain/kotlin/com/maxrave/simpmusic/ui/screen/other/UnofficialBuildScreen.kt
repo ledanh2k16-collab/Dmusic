@@ -19,10 +19,10 @@ import androidx.compose.ui.unit.dp
 import com.maxrave.simpmusic.expect.openUrl
 import com.maxrave.simpmusic.ui.theme.typo
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.download
-import dmusic.composeapp.generated.resources.modified_build_message
-import dmusic.composeapp.generated.resources.modified_build_title
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.download
+import nesic.composeapp.generated.resources.modified_build_message
+import nesic.composeapp.generated.resources.modified_build_title
 
 /** Replaces the whole app on a repackaged copy, inside App's own theme. Nothing here leads back into it. */
 @Composable

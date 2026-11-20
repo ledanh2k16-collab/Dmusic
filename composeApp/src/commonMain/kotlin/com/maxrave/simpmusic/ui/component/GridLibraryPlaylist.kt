@@ -68,8 +68,8 @@ import com.maxrave.simpmusic.ui.theme.seed
 import com.maxrave.simpmusic.ui.theme.typo
 import org.jetbrains.compose.resources.StringResource
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.create
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.create
 import kotlin.math.roundToInt
 
 /**

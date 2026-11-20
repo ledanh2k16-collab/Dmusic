@@ -649,8 +649,8 @@ object MEDIA_CUSTOM_COMMAND {
 
 object MEDIA_NOTIFICATION {
     const val NOTIFICATION_ID = 200
-    const val NOTIFICATION_CHANNEL_NAME = "Dmusic Playback Notification"
-    const val NOTIFICATION_CHANNEL_ID = "Dmusic Playback Notification ID"
+    const val NOTIFICATION_CHANNEL_NAME = "Nesic Playback Notification"
+    const val NOTIFICATION_CHANNEL_ID = "Nesic Playback Notification ID"
 }
 
 const val SETTINGS_FILENAME = "settings"

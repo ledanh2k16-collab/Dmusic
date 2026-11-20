@@ -125,12 +125,12 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.audio_output
-import dmusic.composeapp.generated.resources.comments
-import dmusic.composeapp.generated.resources.crossfading
-import dmusic.composeapp.generated.resources.now_playing_upper
-import dmusic.composeapp.generated.resources.radio_mix_upper
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.audio_output
+import nesic.composeapp.generated.resources.comments
+import nesic.composeapp.generated.resources.crossfading
+import nesic.composeapp.generated.resources.now_playing_upper
+import nesic.composeapp.generated.resources.radio_mix_upper
 
 /**
  * The Material 3 Expressive ("Tonal pills") Now Playing style.

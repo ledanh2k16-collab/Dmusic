@@ -75,11 +75,11 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.continue_playing
-import dmusic.composeapp.generated.resources.endless_queue
-import dmusic.composeapp.generated.resources.now_playing
-import dmusic.composeapp.generated.resources.radio_mix
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.continue_playing
+import nesic.composeapp.generated.resources.endless_queue
+import nesic.composeapp.generated.resources.now_playing
+import nesic.composeapp.generated.resources.radio_mix
 
 /**
  * The QUEUE body: compact header, [Info][PlaylistAdd][Shuffle][Repeat] pills, a "Continue

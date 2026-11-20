@@ -35,9 +35,9 @@ import androidx.compose.ui.unit.dp
 import com.maxrave.logger.Logger
 import com.maxrave.simpmusic.ui.theme.typo
 import org.jetbrains.compose.resources.stringResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.less
-import dmusic.composeapp.generated.resources.more
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.less
+import nesic.composeapp.generated.resources.more
 import kotlin.math.roundToInt
 
 @Composable

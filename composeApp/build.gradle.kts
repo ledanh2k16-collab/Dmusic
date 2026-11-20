@@ -35,7 +35,7 @@ plugins {
 // Force it to `always` so `Res` is generated for this app module.
 compose.resources {
     generateResClass = always
-    packageOfResClass = "dmusic.composeapp.generated.resources"
+    packageOfResClass = "nesic.composeapp.generated.resources"
 }
 
 kotlin {

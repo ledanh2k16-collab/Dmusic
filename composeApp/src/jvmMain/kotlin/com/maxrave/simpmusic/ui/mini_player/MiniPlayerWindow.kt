@@ -21,8 +21,8 @@ import com.maxrave.logger.Logger
 import com.maxrave.simpmusic.viewModel.SharedViewModel
 import com.maxrave.simpmusic.viewModel.UIEvent
 import org.jetbrains.compose.resources.painterResource
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.circle_app_icon
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.circle_app_icon
 import java.awt.Dimension
 import java.util.prefs.Preferences
 
@@ -85,7 +85,7 @@ fun MiniPlayerWindow(
 
     Window(
         onCloseRequest = onCloseRequest,
-        title = "Dmusic - Mini Player",
+        title = "Nesic - Mini Player",
         icon = painterResource(Res.drawable.circle_app_icon),
         alwaysOnTop = true,
         undecorated = true,

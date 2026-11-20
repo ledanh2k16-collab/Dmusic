@@ -90,19 +90,19 @@ import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import dmusic.composeapp.generated.resources.Res
-import dmusic.composeapp.generated.resources.baseline_favorite_24
-import dmusic.composeapp.generated.resources.cancel
-import dmusic.composeapp.generated.resources.comments
-import dmusic.composeapp.generated.resources.comments_load_error
-import dmusic.composeapp.generated.resources.comments_log_in_hint
-import dmusic.composeapp.generated.resources.comments_log_in_message
-import dmusic.composeapp.generated.resources.comments_turned_off
-import dmusic.composeapp.generated.resources.go_to_log_in_page
-import dmusic.composeapp.generated.resources.log_in
-import dmusic.composeapp.generated.resources.reply
-import dmusic.composeapp.generated.resources.replying_to
-import dmusic.composeapp.generated.resources.retry
+import nesic.composeapp.generated.resources.Res
+import nesic.composeapp.generated.resources.baseline_favorite_24
+import nesic.composeapp.generated.resources.cancel
+import nesic.composeapp.generated.resources.comments
+import nesic.composeapp.generated.resources.comments_load_error
+import nesic.composeapp.generated.resources.comments_log_in_hint
+import nesic.composeapp.generated.resources.comments_log_in_message
+import nesic.composeapp.generated.resources.comments_turned_off
+import nesic.composeapp.generated.resources.go_to_log_in_page
+import nesic.composeapp.generated.resources.log_in
+import nesic.composeapp.generated.resources.reply
+import nesic.composeapp.generated.resources.replying_to
+import nesic.composeapp.generated.resources.retry
 import kotlin.math.roundToInt
 
 // The colour DescriptionView gives links and timestamps; "N replies" and "Show more replies" are links too.
